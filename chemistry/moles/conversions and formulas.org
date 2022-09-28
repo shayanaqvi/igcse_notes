@@ -1,0 +1,18 @@
+#+title: Conversions & Formulas
+* Formulas
+** Moles <-> Mass
+$Mole = \frac{Mass(grams)}{Ar\ or\ Mr}$
+** Moles <-> Particles
+$Mole = \frac{Total\ number\ of\ particles}{6*10^{23}\ (Avogadro's\ Number)}$
+** Moles <-> Volume of gas
+$dm^3$ --> $cm^3$ = $*1000$
+$cm^3$ --> $dm^3$ = $/1000$
+*** $dm^3$
+$Mole = \frac{Volume\ of\ gas\ (dm^3)}{24}$
+*** $cm^3$
+$Mole = \frac{Volume\ of\ gas\ (cm^3)}{24000}$
+** Moles <-> Concentration
+*** $g/dm^3$
+$Concentration = \frac{Mass\ of\ solute}{Volume\ of\ solution}$
+*** $mol/dm^3$
+$Concentration = \frac{Moles\ of\ solute}{Volume\ of\ solution}$

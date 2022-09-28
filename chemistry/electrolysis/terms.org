@@ -1,0 +1,42 @@
+#+title: Basic Terms
+* Basic Terms
+** Ions
+A particle with a positive or negative charge.
+- Anions
+    Negatively charged ion
+- Cations
+    Positively charged ion
+** Electrodes
+A metal/non-metal (i.e. graphite) that conducts electricity.
+Anions(-) --> Anode(\+); Cations(+)--> Cathode(-)
+- Anodes
+  Positively charged electrode
+- Cathode
+  Negatively charged electrode
+** Ionization
+The process by which a particle is positively or negatively charged.
+** Redox
+A chemical reaction involving the oxidation/reduction of elements.
+- Oxidation
+  A rise in the oxidation state
+- Reduction
+  A decrease in the oxidation state
+** Electrochemical cells
+An electrolytic cell that handled electrical and chemical energy.
+- Simple/Volatic cell
+  Chemical energy --> electric energy
+- Electrolytic cell
+  Electric energy --> chemical energy
+** Electrolytes
+An ionic compound (fused/aqueous) that conducts electricity, thereby forming anions and cations.
+- Strong electrolytes
+  Easily conducts electricity
+- Weak electrolytes
+  Conducts electricity, but not as easily
+* Simple cells vs electrochemical cells
+** Simple cells
+- Chemical energy --> electric energy
+- Spontaneous reaction
+** Electrochemical cells
+- Electric energy --> chemical energy
+- Non-spontaneous reaction

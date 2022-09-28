@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-09-14 Wed 21:08 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Organic Chemistry</title>
+<meta name="author" content="Shayan Naqvi" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Organic Chemistry</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org93d4806">1. Compounds</a>
+<ul>
+<li><a href="#org4fec3aa">1.1. Organic compounds</a></li>
+<li><a href="#orgcea73c3">1.2. Inorganic compounds</a></li>
+<li><a href="#org9eba79d">1.3. Exceptions</a></li>
+</ul>
+</li>
+<li><a href="#org63c3dbd">2. Functional groups</a></li>
+<li><a href="#org7ba3b90">3. Hydrocarbons</a>
+<ul>
+<li><a href="#orge75a2cd">3.1. Classification of hydrocarbons</a></li>
+<li><a href="#org8fdedb2">3.2. Differences between saturated and unsaturated hydrocarbons</a></li>
+</ul>
+</li>
+<li><a href="#org592a9de">4. Homologous series</a>
+<ul>
+<li><a href="#org5171762">4.1. Alkane homologous series</a>
+<ul>
+<li><a href="#org7301025">4.1.1. Molecular structure of Alkanes</a></li>
+<li><a href="#orge657431">4.1.2. Physical properties of Alkanes</a></li>
+<li><a href="#org3646716">4.1.3. Chemical properties of Alkanes</a></li>
+</ul>
+</li>
+<li><a href="#orgc28d396">4.2. Alkene homologous series</a>
+<ul>
+<li><a href="#org8c4ef89">4.2.1. Molecular structure of Alkenes</a></li>
+<li><a href="#org4a914e6">4.2.2. Addition reactions of Alkenes</a></li>
+<li><a href="#org156bbd9">4.2.3. Preparation of Alkenes via cracking of Alkanes</a></li>
+</ul>
+</li>
+<li><a href="#org3444e41">4.3. Alkyl homologous series</a></li>
+<li><a href="#orga0ed369">4.4. Alcohol homologous series (Alkanol)</a>
+<ul>
+<li><a href="#orgc4da396">4.4.1. Production of Ethanol</a></li>
+<li><a href="#org7ca22db">4.4.2. Uses of ethanol</a></li>
+</ul>
+</li>
+<li><a href="#orga6b3e1c">4.5. Carboxylic acid homologous series (Alkoic)</a>
+<ul>
+<li><a href="#org1822601">4.5.1. Chemical reactions</a></li>
+</ul>
+</li>
+<li><a href="#orgb3efbe7">4.6. Structured formulas</a></li>
+<li><a href="#orgcd96751">4.7. Esters</a>
+<ul>
+<li><a href="#orgfea0e03">4.7.1. Naming</a></li>
+<li><a href="#orgfeab86d">4.7.2. Structure</a></li>
+<li><a href="#org3c10547">4.7.3. Uses of esters</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org0017254">5. Isomers</a></li>
+<li><a href="#org1bed6cf">6. Fractional distillation of petroleum</a>
+<ul>
+<li><a href="#orgcf75846">6.1. Process</a></li>
+<li><a href="#org579a99e">6.2. Fractions</a>
+<ul>
+<li><a href="#orge5b833b">6.2.1. Uses</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org732432f">7. Polymerization</a>
+<ul>
+<li><a href="#org29e1af4">7.1. Types of polymerization</a></li>
+<li><a href="#org5fbb1c3">7.2. Addition polymerization</a>
+<ul>
+<li><a href="#org88e15f3">7.2.1. Structures</a></li>
+<li><a href="#orge9483c4">7.2.2. Uses</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org93d4806" class="outline-2">
+<h2 id="org93d4806"><span class="section-number-2">1.</span> Compounds</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org4fec3aa" class="outline-3">
+<h3 id="org4fec3aa"><span class="section-number-3">1.1.</span> Organic compounds</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+An organic compound is a compound that contains carbon. For e.g.,
+</p>
+<ul class="org-ul">
+<li>\(CH_4\)</li>
+<li>\(CH_3COOH\)</li>
+<li>\(C_2H_6\)</li>
+<li>\(C_6H_{12}O_6\)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgcea73c3" class="outline-3">
+<h3 id="orgcea73c3"><span class="section-number-3">1.2.</span> Inorganic compounds</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+An inorganic compound is a compound that does not contain carbon. For e.g.,
+</p>
+<ul class="org-ul">
+<li>\(NaCl\)</li>
+<li>\(SO_2\)</li>
+<li>\(NH_3\)</li>
+<li>\(H_2O\)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9eba79d" class="outline-3">
+<h3 id="org9eba79d"><span class="section-number-3">1.3.</span> Exceptions</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+There are exceptions for both organic and inorganic compounds. Exceptions for organic compounds include:
+</p>
+<ul class="org-ul">
+<li>\(H\)</li>
+<li>\(N\)</li>
+<li>\(P\)</li>
+</ul>
+<p>
+Exceptions for inorganic compounds include:
+</p>
+<ul class="org-ul">
+<li>\(CaCO_3\)</li>
+<li>\(CaC_2\)</li>
+<li>\(Na_2CO_3\)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org63c3dbd" class="outline-2">
+<h2 id="org63c3dbd"><span class="section-number-2">2.</span> Functional groups</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+A functional group is an atom or a group of atoms that gives a molecule its characteristic properties. Examples for functional groups include:
+</p>
+<ul class="org-ul">
+<li>\(C\)</li>
+<li>\(OH\)</li>
+<li>\(COOH\)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7ba3b90" class="outline-2">
+<h2 id="org7ba3b90"><span class="section-number-2">3.</span> Hydrocarbons</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+A hydrocarbon is an organic compound that includes only hydrogen and carbon atoms. Examples include:
+</p>
+<ul class="org-ul">
+<li>\(CH_4\)</li>
+<li>\(C_2H_6\)</li>
+</ul>
+</div>
+<div id="outline-container-orge75a2cd" class="outline-3">
+<h3 id="orge75a2cd"><span class="section-number-3">3.1.</span> Classification of hydrocarbons</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+There are two categories of hydrocarbons:
+</p>
+<ol class="org-ol">
+<li>Saturated hydrocarbons
+<ul class="org-ul">
+<li>Belongs to the &rsquo;Alkane&rsquo; homologous series  (<a href="#org5171762">4.1</a>)</li>
+</ul></li>
+<li>Unsaturated hydrocarbons
+<ul class="org-ul">
+<li>Belongs to the &rsquo;Alkene&rsquo; homologous series (<a href="#orgc28d396">4.2</a>)</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org8fdedb2" class="outline-3">
+<h3 id="org8fdedb2"><span class="section-number-3">3.2.</span> Differences between saturated and unsaturated hydrocarbons</h3>
+<div class="outline-text-3" id="text-3-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Homologous Series</th>
+<th scope="col" class="org-left">General Formula</th>
+<th scope="col" class="org-left">Bond</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Saturated hydrocarbon</td>
+<td class="org-left">Alkane</td>
+<td class="org-left">\(C_nH_{2n+2}\)</td>
+<td class="org-left">C - C</td>
+</tr>
+
+<tr>
+<td class="org-left">Unsaturated hydrocarbon</td>
+<td class="org-left">Alkene</td>
+<td class="org-left">\(C_nH_{2n}\)</td>
+<td class="org-left">C = C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-org592a9de" class="outline-2">
+<h2 id="org592a9de"><span class="section-number-2">4.</span> Homologous series</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+The homologous series is a family of organic compounds with the same functional group and similar chemical properties. Organic compounds in the same homologous series have the following characteristics:
+</p>
+<ul class="org-ul">
+<li>They have the same functional group</li>
+<li>They have similar chemical properties</li>
+<li>There is a gradual change in their physical properties the further down the series, due to a change in the size of the atoms.</li>
+</ul>
+</div>
+<div id="outline-container-org5171762" class="outline-3">
+<h3 id="org5171762"><span class="section-number-3">4.1.</span> Alkane homologous series</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+<b>General formula</b>: \(C_nH_{2n+2}\)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Molecular Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Methane</td>
+<td class="org-left">\(CH_4\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Ethane</td>
+<td class="org-left">\(C_2H_6\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Propane</td>
+<td class="org-left">\(C_3H_8\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Butane</td>
+<td class="org-left">\(C_4H_{10}\)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="outline-container-org7301025" class="outline-4">
+<h4 id="org7301025"><span class="section-number-4">4.1.1.</span> Molecular structure of Alkanes</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<p>
+Alkanes are saturated hydrocarbons, meaning there are only single carbon-carbon bonds (C-C).
+</p>
+</div>
+</div>
+<div id="outline-container-orge657431" class="outline-4">
+<h4 id="orge657431"><span class="section-number-4">4.1.2.</span> Physical properties of Alkanes</h4>
+<div class="outline-text-4" id="text-4-1-2">
+<ol class="org-ol">
+<li>Melting/boiling point
+<ul class="org-ul">
+<li>Generally low melting and boiling points.</li>
+<li>The melting point increases down the group due to an increase in the number of bonds between the molecules (more heat is needed to overcome more bonds).</li>
+</ul></li>
+<li>Flammability
+<ul class="org-ul">
+<li>The flammability of Alkanes decreases down the group due to an increase in the size of molecules. Larger molecules are harder to burn and therefore ouput less flame.</li>
+</ul></li>
+<li>Viscosity
+<ul class="org-ul">
+<li>The viscosity (thickness/difficulty of flow) of Alkanes increases down the group due to an increase in the size of molecules. The state of Alkanes gradually changes from gaseous (first 4) to liquid to solid.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org3646716" class="outline-4">
+<h4 id="org3646716"><span class="section-number-4">4.1.3.</span> Chemical properties of Alkanes</h4>
+<div class="outline-text-4" id="text-4-1-3">
+<ol class="org-ol">
+<li>Reactivity
+<ul class="org-ul">
+<li>Alkanes are unreactive hydrocarbons.</li>
+<li>Are insoluble in water.</li>
+<li>Are soluble in organic solvents.</li>
+</ul></li>
+<li>Combustion
+<ul class="org-ul">
+<li>This refers to the burning of an Alkane in the presence/with a supply of oxygen.
+<ol class="org-ol">
+<li>Complete combustion
+<ul class="org-ul">
+<li>\(CH_4 + 2O_2\) &#x2013;&gt; \(CO_2 + H_2O + heat\)
+<ul class="org-ul">
+<li>Occurs with a sufficient supply of oxygen.</li>
+<li>Carbon dioxide is produced.</li>
+</ul></li>
+</ul></li>
+<li>Incomplete combustion
+<ul class="org-ul">
+<li>\(CH_4 + O_2\) &#x2013;&gt; \(CO + H_2O + heat\)
+<ul class="org-ul">
+<li>Occurs with an insufficient supply of oxygen.</li>
+<li>Carbonx monoxide is produced (poisonous).</li>
+</ul></li>
+</ul></li>
+</ol></li>
+</ul></li>
+<li>Substitution reactions
+<ul class="org-ul">
+<li>This reaction takes place in UV radiation. For e.g., Methane + Chloride (4 steps):
+<ol class="org-ol">
+<li>\(CH_4 + Cl_2\)  \(\frac{UV}{-->}\)  \(HCl + CH_3Cl\) (monochloro methane)</li>
+<li>\(CH_3Cl + Cl_2\)  \(\frac{UV}{-->}\)  \(HCl + CH_2Cl_2\) (dichloro methane)</li>
+<li>\(CH_2Cl_2 + Cl_2\)  \(\frac{UV}{-->}\)  \(HCl + CHCl_3\) (trichloro methane)</li>
+<li>\(CHCl_3 + Cl_2\)  \(\frac{UV}{-->}\)  \(HCl + CCl_4\) (tetrachloro methane)</li>
+</ol></li>
+</ul></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc28d396" class="outline-3">
+<h3 id="orgc28d396"><span class="section-number-3">4.2.</span> Alkene homologous series</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+<b>General formula</b>: \(C_nH_{2n}\)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Molecular Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Methene</td>
+<td class="org-left">Does not exist</td>
+</tr>
+
+<tr>
+<td class="org-left">Ethene</td>
+<td class="org-left">\(C_2H_4\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Propene</td>
+<td class="org-left">\(C_3H_6\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Butene</td>
+<td class="org-left">\(C_4H_8\)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="outline-container-org8c4ef89" class="outline-4">
+<h4 id="org8c4ef89"><span class="section-number-4">4.2.1.</span> Molecular structure of Alkenes</h4>
+<div class="outline-text-4" id="text-4-2-1">
+<p>
+Alkenes are unsaturated hydrocarbons, meaning there is one double carbon-carbon bond (C=C).
+</p>
+</div>
+</div>
+<div id="outline-container-org4a914e6" class="outline-4">
+<h4 id="org4a914e6"><span class="section-number-4">4.2.2.</span> Addition reactions of Alkenes</h4>
+<div class="outline-text-4" id="text-4-2-2">
+<p>
+Alkenes are reactive hydrocarbons.
+</p>
+<ol class="org-ol">
+<li>Hydrogenation
+<ul class="org-ul">
+<li><p>
+The addition of hydrogen to an unsatured hydrocarbon is known as hydrogenation. For e.g., Ethene + Hydrogen:
+</p>
+<ul class="org-ul">
+<li>\(Ethene + H_2\) &#x2013;&gt; \(Ethane\) (\(C_2H_4 + H_2\) &#x2013;&gt; \(C_2H_6\)).</li>
+</ul>
+<p>
+Hydrogenation turns an Alkene into an Alkane.
+</p></li>
+<li>Prerequisites for hydrogenation
+<ol class="org-ol">
+<li>Catalyst (nickel)</li>
+<li>Temperature (200°C)</li>
+</ol></li>
+</ul></li>
+<li>Bromination
+<ul class="org-ul">
+<li>The passing of bromine water (liquid bromine)(reddish-brown) through hydrocarbons for the purpose of identification. For e.g., Bromine water + Ethene:
+<ul class="org-ul">
+<li>\(C_2H_4 + Br_2\) &#x2013;&gt; \(C_2H_4Br\) (Dibromo Ethane)
+<ul class="org-ul">
+<li>The colour transitions from reddish-brown &#x2013;&gt; colourless.</li>
+</ul></li>
+</ul></li>
+<li>When a hydrocarbon becomes colourless after reacting with bromine water, it means it is unsaturated.</li>
+</ul></li>
+<li>Hydration
+<ul class="org-ul">
+<li>Alkenes can react with steam to produce an alcohol. For e.g., Ethene + Water: \(C_2H_4 + H_2O (g)\) &#x2013;&gt; \(C_2H_4OH\) (Ethanol)</li>
+<li>Prerequisites for hydration
+<ol class="org-ol">
+<li>Catalyst (Phosphoric Acid (\(H_3PO_4\)))</li>
+<li>Temperature (300°C)</li>
+<li>Pressure (60°C)</li>
+</ol></li>
+</ul></li>
+<li>Polymerization
+<ul class="org-ul">
+<li>Alkenes make long-chain molecules at high temperature + presure. For e.g., polymerization of ethene:
+<ul class="org-ul">
+<li>Ethene \(\frac{high\ temperature + high\ pressure}{-->} Polythene/Poly-ethene\)</li>
+<li>\(n(CH=CH)\) \(\frac{polymerization}{-->}\) \((-CH_2-CH_2-)_n\) (monomer &#x2013;&gt; polymer)</li>
+</ul></li>
+<li>A monomer is a small unit of a polymer that is repeated multiple times.</li>
+<li>A polymer is a long-chain molecule.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org156bbd9" class="outline-4">
+<h4 id="org156bbd9"><span class="section-number-4">4.2.3.</span> Preparation of Alkenes via cracking of Alkanes</h4>
+<div class="outline-text-4" id="text-4-2-3">
+<p>
+Alkanes are cracked in order to prepare an Alkene + other products:
+</p>
+<ul class="org-ul">
+<li>\(Long-chain\ Alkane\) \(\frac{cracking}{-->}\) \([mixture\ of\ short-chain\ Alkenes] + [mixture\ of\ short-chain\ Alkanes\ OR\ Hydrogen]\)</li>
+</ul>
+<p>
+For e.g.,
+</p>
+<ul class="org-ul">
+<li>\(C_{18}H_{38}\) \(\frac{cracking}{-->}\) \(C_{10}H_{20} + C_8H_{16} + H_2\)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org3444e41" class="outline-3">
+<h3 id="org3444e41"><span class="section-number-3">4.3.</span> Alkyl homologous series</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+<b>General formula</b>: \(C_nH_{2n+1}\)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Molecular Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Methyl</td>
+<td class="org-left">\(CH_3\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Ethyl</td>
+<td class="org-left">\(C_2H_5\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Propyl</td>
+<td class="org-left">\(C_3H_7\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Butyl</td>
+<td class="org-left">\(C_4H_9\)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+</tr>
+</tbody>
+</table>
+<p>
+Elements of the Alkyl homologous series can bond with halides:
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Molecular Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Methyl Chloride</td>
+<td class="org-left">\(CH_3Cl\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Ethyl Chloride</td>
+<td class="org-left">\(C_2H_5Cl\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Propyl Bromide</td>
+<td class="org-left">\(C_3H_7Br\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Butyl Fluoride</td>
+<td class="org-left">\(C_4H_9F\)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orga0ed369" class="outline-3">
+<h3 id="orga0ed369"><span class="section-number-3">4.4.</span> Alcohol homologous series (Alkanol)</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+The Alcohol homologous series consists of elements of the Alkyl homologous series bonded with hydroxide.
+<b>General formula</b>: \(C_nH_{2n+1}OH\)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Molecular Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Methyl Alcohol -&gt; Methanol</td>
+<td class="org-left">\(CH_3OH\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Ethyl Alcohol -&gt; Ethanol</td>
+<td class="org-left">\(C_2H_5OH\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Propyl Alcohol -&gt; Propanol</td>
+<td class="org-left">\(C_3H_7OH\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Butane Alcohol -&gt; Butanol</td>
+<td class="org-left">\(C_4H_9OH\)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="outline-container-orgc4da396" class="outline-4">
+<h4 id="orgc4da396"><span class="section-number-4">4.4.1.</span> Production of Ethanol</h4>
+<div class="outline-text-4" id="text-4-4-1">
+</div>
+<ol class="org-ol">
+<li><a id="org864a056"></a>Hydration<br />
+<div class="outline-text-5" id="text-4-4-1-1">
+<p>
+Refer to <a href="#org4a914e6">4.2.2</a>
+</p>
+</div>
+</li>
+<li><a id="org6864070"></a>Fermentation<br />
+<div class="outline-text-5" id="text-4-4-1-2">
+<p>
+Fermentation is a process in which micro-organisms (i.e. yeast) act on carbohydrates (i.e. glucose) in the <b>absence of oxygen</b> to produce ethanol and carbon dioxide.
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="org2349529"></a>Process of fermentation<br />
+<div class="outline-text-6" id="text-4-4-1-2-1">
+<ol class="org-ol">
+<li>A solution of glucose is mixed with yeast and kept at 37°C.</li>
+<li>During fermentation, carbon dioxide is produced. Hence, frothing can be observed. Limewater can be used to test the presence of carbon dioxide.</li>
+<li>A dilute solution of ethanol is produced, at about 15% concentration.
+<ul class="org-ul">
+<li>This happens because an alcohol content over ~15% kills the yeast and stops the process of fermentation.</li>
+<li>The diluted solution can be purified to obtain a higher ethanol concentration via fractional distillation.</li>
+</ul></li>
+</ol>
+</div>
+</li>
+<li><a id="orgda2a4c5"></a>Precautions<br />
+<div class="outline-text-6" id="text-4-4-1-2-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Precaution</th>
+<th scope="col" class="org-left">Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Temperature should be kept at ~37°C</td>
+<td class="org-left">The enzymes in the yeast work best at this temperature. Any higher then the enzymes will be denatured and fermentation shall stop</td>
+</tr>
+
+<tr>
+<td class="org-left">The apparatus should be kept airtight; no oxygen should interfere during fermentation</td>
+<td class="org-left">Alcohol + oxygen &#x2013;&gt; Carboxylic acid + water</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="outline-container-org7ca22db" class="outline-4">
+<h4 id="org7ca22db"><span class="section-number-4">4.4.2.</span> Uses of ethanol</h4>
+<div class="outline-text-4" id="text-4-4-2">
+<ol class="org-ol">
+<li>As a solvent</li>
+<li>As a fuel</li>
+<li>In cooking (methylated spirit)</li>
+<li>In foods/drinks</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orga6b3e1c" class="outline-3">
+<h3 id="orga6b3e1c"><span class="section-number-3">4.5.</span> Carboxylic acid homologous series (Alkoic)</h3>
+<div class="outline-text-3" id="text-4-5">
+<p>
+The carboxylic homologous series consists of elements of the alkyl homologous series bonded with \(COOH\). They are weak acids, and partially ionize during reactions.
+<b>General formula</b>: \(C_nH_{2n}COOH\)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Molecular formula</th>
+<th scope="col" class="org-left">Structural formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Methanoic Acid</td>
+<td class="org-left">\(HCOOH\)</td>
+<td class="org-left"><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig9.png" alt="fig9.png" /></td>
+</tr>
+
+<tr>
+<td class="org-left">Ethanoic Acid</td>
+<td class="org-left">\(CH_3COOH\)</td>
+<td class="org-left"><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig10.png" alt="fig10.png" /></td>
+</tr>
+
+<tr>
+<td class="org-left">Propanoic Acid</td>
+<td class="org-left">\(C_2H_5COOH\)</td>
+<td class="org-left"><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig11.png" alt="fig11.png" /></td>
+</tr>
+
+<tr>
+<td class="org-left">Butanoic Acid</td>
+<td class="org-left">\(C_3H_7COOH\)</td>
+<td class="org-left"><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig12.png" alt="fig12.png" /></td>
+</tr>
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="outline-container-org1822601" class="outline-4">
+<h4 id="org1822601"><span class="section-number-4">4.5.1.</span> Chemical reactions</h4>
+<div class="outline-text-4" id="text-4-5-1">
+<ol class="org-ol">
+<li>With water
+<ul class="org-ul">
+<li>Carboxylic acids dissolve in water &amp; partially ionize to produce 1 hydrogen ion (\(H^+\)). For e.g.,
+<ul class="org-ul">
+<li>\(HCOOH\) \(\frac{H_2O}{-->}\) \(H^+ + HCOO^-\) (methanoate)</li>
+<li>\(CH_3COOH\) \(\frac{H_2O}{-->}\) \(H^+ CH_3COO\) (ethanoate)</li>
+<li>\(C_2H_5COOH\) \(\frac{H_2O}{-->}\) \(H^+ C_2H_5COO\) (propanoate)</li>
+</ul></li>
+</ul></li>
+<li>With bases
+<ul class="org-ul">
+<li>Acid + base &#x2013;&gt; Salt + water
+<ul class="org-ul">
+<li>\(CH_3COOH + Ca(OH)_2\) &#x2013;&gt; \(Ca(CH_3COO)_2\ (calcium\ ethanoate)\ + H_2O\)</li>
+<li>\(C_2H_5COOH + NaOH\) &#x2013;&gt; \(NaC_2H_5COO\ (sodium\ propanoate)\ + H_2O\)</li>
+</ul></li>
+</ul></li>
+<li>With carbonates
+<ul class="org-ul">
+<li>Acid + carbonate &#x2013;&gt; Salt + water + carbon dioxide
+<ul class="org-ul">
+<li>\(HCOOH + CaCO_3\) &#x2013;&gt; \(Ca(HCOO)_2 + H_2O + CO_2\)</li>
+<li>\(CH_3COOH + K_2CO_3\) &#x2013;&gt; \(KCH_3COO + H_2O + CO_2\)</li>
+<li>\(C_2H_5COOH + Na_2CO_3\) &#x2013;&gt; \(Na_2C_2H_5 + H_2O + CO_2\)</li>
+</ul></li>
+</ul></li>
+<li>With metals
+<ul class="org-ul">
+<li>Acid + metal &#x2013;&gt; Salt + hydrogen gas
+<ul class="org-ul">
+<li>\(Zn + CH_3COOH\) &#x2013;&gt; \(Zn(CH_3COO)_2 + H_2\)</li>
+<li>\(Mg + HCOOH\) &#x2013;&gt; \(MgHCOO + H_2\)</li>
+</ul></li>
+</ul></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb3efbe7" class="outline-3">
+<h3 id="orgb3efbe7"><span class="section-number-3">4.6.</span> Structured formulas</h3>
+<div class="outline-text-3" id="text-4-6">
+<p>
+Structured formulas represent the structure of a compound.
+</p>
+<ul class="org-ul">
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig1.png" alt="fig1.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig2.png" alt="fig2.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig3.png" alt="fig3.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig4.png" alt="fig4.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig5.png" alt="fig5.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig6.png" alt="fig6.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig7.png" alt="fig7.png" /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgcd96751" class="outline-3">
+<h3 id="orgcd96751"><span class="section-number-3">4.7.</span> Esters</h3>
+<div class="outline-text-3" id="text-4-7">
+<p>
+Esters are formed when a mixture of alcohol and carboxylic acid is heated. The products formed are an alkyl alkanoate along with water.
+</p>
+</div>
+<div id="outline-container-orgfea0e03" class="outline-4">
+<h4 id="orgfea0e03"><span class="section-number-4">4.7.1.</span> Naming</h4>
+<div class="outline-text-4" id="text-4-7-1">
+<p>
+There are two parts to the name of an ester:
+</p>
+<ol class="org-ol">
+<li>Alcohol</li>
+<li>Carboxylic Acid</li>
+</ol>
+<p>
+For e.g.,
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-left">Alcohol</th>
+<th scope="col" class="org-left">Carboxylic Acid</th>
+<th scope="col" class="org-left">Products</th>
+<th scope="col" class="org-left">Chemical Equation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1.</td>
+<td class="org-left">Ethanol</td>
+<td class="org-left">Ethanoic Acid</td>
+<td class="org-left">Ethyl Ethanoate and Water</td>
+<td class="org-left">\(C_2H_5OH + CH_3COOH --> C_2H_5CH_3COO + H_2O\)</td>
+</tr>
+
+<tr>
+<td class="org-right">2.</td>
+<td class="org-left">Methanol</td>
+<td class="org-left">Methanoic Acid</td>
+<td class="org-left">Methyl Methanoate and Water</td>
+<td class="org-left">\(CH_3OH + HCOOH --> CH_3COO + H_2O\)</td>
+</tr>
+
+<tr>
+<td class="org-right">3.</td>
+<td class="org-left">Ethanol</td>
+<td class="org-left">Methanoic Acid</td>
+<td class="org-left">Ethyl Methanoate and Water</td>
+<td class="org-left">\(C_2H_5OH + HCOOH --> C_2H_5COO + H_2O\)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgfeab86d" class="outline-4">
+<h4 id="orgfeab86d"><span class="section-number-4">4.7.2.</span> Structure</h4>
+<div class="outline-text-4" id="text-4-7-2">
+<ol class="org-ol">
+<li>Methyl Ethanoate (Ethanoic Acid + Methanol)</li>
+</ol>
+
+<div id="org1a9972f" class="figure">
+<p><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig13.png" alt="fig13.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li>Ethyl Methanoate (Methanoic Acid + Ethanol)</li>
+</ol>
+
+<div id="orgf5c688b" class="figure">
+<p><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig14.png" alt="fig14.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li>Ethyl Ethanoate (Ethanoic Acid + Ethanol)</li>
+</ol>
+
+<div id="orgd7533e7" class="figure">
+<p><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig15.png" alt="fig15.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org3c10547" class="outline-4">
+<h4 id="org3c10547"><span class="section-number-4">4.7.3.</span> Uses of esters</h4>
+<div class="outline-text-4" id="text-4-7-3">
+<ol class="org-ol">
+<li>Artificial flavouring (courtesy of its fragrance)</li>
+<li>Solvents (in cosmetics, perfumes, glue, etc)</li>
+<li>Production of soaps (when fats are boiled with sodium hydroxide)</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org0017254" class="outline-2">
+<h2 id="org0017254"><span class="section-number-2">5.</span> Isomers</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+Compounds which have the same molecular formula but different structural formulas are known as isomers.
+<img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig8.png" alt="fig8.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-org1bed6cf" class="outline-2">
+<h2 id="org1bed6cf"><span class="section-number-2">6.</span> Fractional distillation of petroleum</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+Petroleum is a naturally-occuring liquid mixture of hydrocarbons, that is dark-brown in colour, has a high viscosity and is foul-smelling. In its unrefined form, petroleum is known as crude oil. In order for it to be used, it has to be refined first. This refining is done via fractional distillation.
+</p>
+</div>
+<div id="outline-container-orgcf75846" class="outline-3">
+<h3 id="orgcf75846"><span class="section-number-3">6.1.</span> Process</h3>
+<div class="outline-text-3" id="text-6-1">
+<ol class="org-ol">
+<li>In its raw form, petroleum is heated and vapourised.</li>
+<li>The vapours are passed into the fractionating column.</li>
+<li>The vapours rise up the fractionating column. The fractionating column is made up of a series of shelfs of varying temperatures. The lower shelves have a high temperature, the higher shelves have a lower temperature. When the vapours meet a shelf that is lower in temperature than its boiling point, it condenses and is collected.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org579a99e" class="outline-3">
+<h3 id="org579a99e"><span class="section-number-3">6.2.</span> Fractions</h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+A total of 7 fractions are collected from this process:
+</p>
+<ol class="org-ol">
+<li>Petroleum gas</li>
+<li>Gasoline</li>
+<li>Naptha</li>
+<li>Kerosene</li>
+<li>Diesel</li>
+<li>Lubricating oil</li>
+<li>Bitumen</li>
+</ol>
+</div>
+<div id="outline-container-orge5b833b" class="outline-4">
+<h4 id="orge5b833b"><span class="section-number-4">6.2.1.</span> Uses</h4>
+<div class="outline-text-4" id="text-6-2-1">
+<ol class="org-ol">
+<li>Petroleum gas
+<ul class="org-ul">
+<li>Used as fuel for cooking/heating.</li>
+</ul></li>
+<li>Gasoline
+<ul class="org-ul">
+<li>Used as a fuel for vehicles.</li>
+</ul></li>
+<li>Naptha
+<ul class="org-ul">
+<li>Used in the production of petrochemicals, i.e. plastics and detergents.</li>
+</ul></li>
+<li>Kerosene
+<ul class="org-ul">
+<li>Used as a fuel for aircrafts.</li>
+</ul></li>
+<li>Diesel
+<ul class="org-ul">
+<li>Used as a fuel for diesel engines in buses, lorries and trains.</li>
+</ul></li>
+<li>Lubricating oil
+<ul class="org-ul">
+<li>Used to lubricate machines/produce waxes + polishes.</li>
+</ul></li>
+<li>Bitumen
+<ul class="org-ul">
+<li>Used for making road surfaces.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org732432f" class="outline-2">
+<h2 id="org732432f"><span class="section-number-2">7.</span> Polymerization</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-org29e1af4" class="outline-3">
+<h3 id="org29e1af4"><span class="section-number-3">7.1.</span> Types of polymerization</h3>
+<div class="outline-text-3" id="text-7-1">
+<ol class="org-ol">
+<li>Addition polymerization</li>
+<li>Condensation polymerization</li>
+</ol>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Addition Polymerization</th>
+<th scope="col" class="org-left">Condensation Polymerization</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Same monomers</td>
+<td class="org-left">Different monomers</td>
+</tr>
+
+<tr>
+<td class="org-left">No other/secondary substances are formed</td>
+<td class="org-left">Formation of water molecules</td>
+</tr>
+
+<tr>
+<td class="org-left">Examples include polythene, PVC (polyvinyl chloride), teflon and polystyrene</td>
+<td class="org-left">Examples include nylon (polyamide) and terylene (polyester)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org5fbb1c3" class="outline-3">
+<h3 id="org5fbb1c3"><span class="section-number-3">7.2.</span> Addition polymerization</h3>
+<div class="outline-text-3" id="text-7-2">
+</div>
+<div id="outline-container-org88e15f3" class="outline-4">
+<h4 id="org88e15f3"><span class="section-number-4">7.2.1.</span> Structures</h4>
+<div class="outline-text-4" id="text-7-2-1">
+<ol class="org-ol">
+<li>Polythene</li>
+</ol>
+
+<div id="org8b2c5c7" class="figure">
+<p><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig16.png" alt="fig16.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li>PVC</li>
+</ol>
+
+<div id="orgfa75b49" class="figure">
+<p><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig17.png" alt="fig17.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li>Teflon</li>
+</ol>
+
+<div id="orgad314ee" class="figure">
+<p><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig18.png" alt="fig18.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li>Polystyrene</li>
+</ol>
+
+<div id="org8801554" class="figure">
+<p><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig19.png" alt="fig19.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge9483c4" class="outline-4">
+<h4 id="orge9483c4"><span class="section-number-4">7.2.2.</span> Uses</h4>
+<div class="outline-text-4" id="text-7-2-2">
+<ol class="org-ol">
+<li>Uses of polythene
+<ol class="org-ol">
+<li>Plastic products, i.e. clingfilm, plastic toys, plastic bags, buckets, etc.</li>
+</ol></li>
+<li>Uses of PVC
+<ol class="org-ol">
+<li>Pipes</li>
+<li>Raincoats</li>
+<li>Flooring mats</li>
+<li>Thin gloves</li>
+</ol></li>
+<li>Uses of teflon
+<ol class="org-ol">
+<li>Non-stick frying pans</li>
+</ol></li>
+<li>Uses of polystyrene
+<ol class="org-ol">
+<li>Disposable containers</li>
+</ol></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Shayan Naqvi</p>
+<p class="date">Created: 2022-09-14 Wed 21:08</p>
+</div>
+</body>
+</html>

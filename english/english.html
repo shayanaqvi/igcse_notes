@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-09-28 Wed 20:38 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>English</title>
+<meta name="author" content="Shayan Naqvi" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">English</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org6423c4e">1. Literary devices</a></li>
+<li><a href="#org4899167">2. Narrative writing</a>
+<ul>
+<li><a href="#orgacc2b28">2.1. Structure</a></li>
+<li><a href="#orgf98feba">2.2. Flashbacks</a></li>
+</ul>
+</li>
+<li><a href="#org609fa3f">3. Interview writing</a></li>
+<li><a href="#orgadb4634">4. Speech writing</a>
+<ul>
+<li><a href="#org62ad245">4.1. Structure</a>
+<ul>
+<li><a href="#orga960c23">4.1.1. Introduction</a></li>
+<li><a href="#orgfa6b591">4.1.2. Main body</a></li>
+<li><a href="#org5b30540">4.1.3. Conclusion</a></li>
+</ul>
+</li>
+<li><a href="#orgb54a519">4.2. Logos/ethos/pathos</a>
+<ul>
+<li><a href="#org472a615">4.2.1. Logos</a></li>
+<li><a href="#orgfd6b367">4.2.2. Ethos</a></li>
+<li><a href="#orgbbf9321">4.2.3. Pathos</a></li>
+</ul>
+</li>
+<li><a href="#org683d255">4.3. Other notes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6423c4e" class="outline-2">
+<h2 id="org6423c4e"><span class="section-number-2">1.</span> Literary devices</h2>
+<div class="outline-text-2" id="text-1">
+<ol class="org-ol">
+<li>Anaphora
+The repetition of a word or phrase at the beginning of every clause (particularly if the speech is trying to be persuasive).
+<ul class="org-ul">
+<li>&ldquo;As you know, we&rsquo;ve got the iPod, best music player in the world. We&rsquo;ve got the iPod Nanos, brand new models, colours are backk. We&rsquo;ve got the amazing new iPod Shuffle.&rdquo;</li>
+</ul></li>
+<li>Epiphora
+The repetition of a word or phrase at the end of every clause.
+<ul class="org-ul">
+<li>&ldquo;Well, these are their home screens. And again, as you recall, this is the iPhone home screen. This is what their contacts look like, this is what iPhone&rsquo;s contacts look like.&rdquo;</li>
+</ul></li>
+<li>Symploke
+The combination of one or several anaphora(s) with one or several epiphora(s).
+<ul class="org-ul">
+<li>&ldquo;The madman is not the man who has lost his reason. The madman is the man who has lost everything except his reason.&rdquo;</li>
+</ul></li>
+<li>Germinatio
+The repetition of a word or word group within a single sentence.
+<ul class="org-ul">
+<li>&ldquo;That&rsquo;s 58 songs of every second or every minute of every hour of every day.&rdquo;</li>
+<li>&ldquo;And so I&rsquo;ve got voice mail how I wanna listen to it, when I wanna listen to it, in any order I wanna listen to it with visual voice mail.&rdquo;</li>
+</ul></li>
+<li>Asyndenton
+A sequence of words or similar expressions without the use of conjunctions.
+<ul class="org-ul">
+<li>&ldquo;We&rsquo;ve got movies, TV shows, music, podcasts, photos&#x2026;&rdquo;</li>
+</ul></li>
+<li>Exclamatio
+An exclamation that expresses the emotional affection of the speaker.
+<ul class="org-ul">
+<li>&ldquo;I just take my unit here, and I turn it on to landscape, oh, look what happens!&rdquo;</li>
+</ul></li>
+<li>Aporia
+A feigned statement of doubt by the speaker and a question to the audience about how they should act.
+<ul class="org-ul">
+<li>&ldquo;Now, how are we gonna communicate this? We don&rsquo;t want to carry around a music library, do we? What can we do if we want to access all songs at once? Of course, the iPod is the solution.&rdquo;</li>
+</ul></li>
+<li>Hyperbole
+An exaggeration of an object or circumstance.
+<ul class="org-ul">
+<li>&ldquo;Best version of Google on the planet.&rdquo;</li>
+</ul></li>
+<li>Similie
+An explicit comparison between two things, usually using &ldquo;as&rdquo; or &ldquo;like&rdquo; to compare.
+<ul class="org-ul">
+<li>&ldquo;It works like magic.&rdquo;</li>
+</ul></li>
+<li>Antitheton
+The opposition of two facts of contrasting content.
+<ul class="org-ul">
+<li>&ldquo;The kind of things you would find on a typical phone, but in a very untypical way now.&rdquo;</li>
+</ul></li>
+<li>Slogan
+A relevant phrase repeated over and over again in a speech.
+<ul class="org-ul">
+<li>&ldquo;Today Apple is going to reinvent the phone&#x2026;So we&rsquo;re going to reinvent the phone&#x2026;you&rsquo;ll agree, we HAVE reinvented the phone&#x2026;&rdquo;</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org4899167" class="outline-2">
+<h2 id="org4899167"><span class="section-number-2">2.</span> Narrative writing</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgacc2b28" class="outline-3">
+<h3 id="orgacc2b28"><span class="section-number-3">2.1.</span> Structure</h3>
+<div class="outline-text-3" id="text-2-1">
+<ol class="org-ol">
+<li>Setting
+<ul class="org-ul">
+<li>location, surroundings, atmosphere, time/date</li>
+</ul></li>
+<li>Characters
+<ul class="org-ul">
+<li>introduce up to 3 characters by describing their appearance, behaviour and quirks</li>
+</ul></li>
+<li>Problem
+<ul class="org-ul">
+<li>create a situation requiring decision or discussion</li>
+<li>build up conflict, perhaps via dialogue</li>
+</ul></li>
+<li>Climax
+<ul class="org-ul">
+<li>narrate a series of actions/events leading to a crisis</li>
+</ul></li>
+<li>Resolution
+<ul class="org-ul">
+<li>describe the outcome to the problem of the plot, which could include something like an ironic twist</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgf98feba" class="outline-3">
+<h3 id="orgf98feba"><span class="section-number-3">2.2.</span> Flashbacks</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li>A sensory experience (trigger) that takes a character into the past</li>
+<li>While in a flashback, change the tense in which you are writing (e.g. from present tense to past tense)</li>
+<li>Describe the event/memory</li>
+<li>A sensory experience in or out of the flashback may bring the character out of said flashback and into the present</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org609fa3f" class="outline-2">
+<h2 id="org609fa3f"><span class="section-number-2">3.</span> Interview writing</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li>Interviews have a structured formality. The structure plays a limit on the discussion. It is guided by someone who does not have a close/personal relationship with the interviewee.</li>
+<li>The interviewee filters answers based on the assumptions about what the person asking questions expects to hear.</li>
+<li>Most of the time, the interviewee worries about being judged.</li>
+<li>An interview is a &rsquo;controlled&rsquo; conversation that follows a linear path.</li>
+<li>Three questions are usually given for the interview in a paper. You are not expected to devise any other question(s).</li>
+<li>Remember the voice, audience, register (choice of vocabulary) and purpose while writing an interview.</li>
+<li>Always write the name of the speaker on the left-hand side.</li>
+<li>Remember to use ideas from the text and develop them, ensuring that your ideas and additions are authentic.</li>
+<li>Ensure that any included content comes from the text.</li>
+<li>Use your own words.</li>
+<li>Vary your sentence structures, do not join sentences with commas; use connectives or semicolons instead.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgadb4634" class="outline-2">
+<h2 id="orgadb4634"><span class="section-number-2">4.</span> Speech writing</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org62ad245" class="outline-3">
+<h3 id="org62ad245"><span class="section-number-3">4.1.</span> Structure</h3>
+<div class="outline-text-3" id="text-4-1">
+</div>
+<div id="outline-container-orga960c23" class="outline-4">
+<h4 id="orga960c23"><span class="section-number-4">4.1.1.</span> Introduction</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<p>
+You should start off by stating your point of view. Get straight to the point, possibly with a rhetorical question. Try to incorporate as many  persuasive features as possible (e.g. rhetorical questions, references to involve the audience, repetition, and a confident tone of voice). For e.g.,
+</p>
+<ul class="org-ul">
+<li>&ldquo;Can you imagine a world where creativity is viewed as a shameful activity? Can you imagine a world where self-expression is not as important as copying notes from a board? Can you imagine a world accompanied only by the monotonous sounds of everyday life instead of one energised by the latest beats and lyrics? This is the world our school wants to create by banning iPods and this is the world that we must fight against with all our might.&rdquo;</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfa6b591" class="outline-4">
+<h4 id="orgfa6b591"><span class="section-number-4">4.1.2.</span> Main body</h4>
+<div class="outline-text-4" id="text-4-1-2">
+<p>
+Each paragraph (or pair of paragraphs) should concentrate on one main argument for/against the topic. It is best to start a paragraph with a point. You should introduce it with a phrase, such as &ldquo;some people may believe&#x2026;because&#x2026;&rdquo;. In cases where you are using a pair of paragraphs, paragraph one should be a point against your stance and paragraph two in favour of your stance so that you always end on a point in your favour. For this, you might need to start with a transitive verb, such as &rsquo;however&rsquo;, &rsquo;moreover&rsquo;, &rsquo;contrary&rsquo;, etc. It is important that you support each point for or against your stance with some evidence/reasoning, so that there is validity to your argument and it is not just an assertion.
+</p>
+</div>
+</div>
+<div id="outline-container-org5b30540" class="outline-4">
+<h4 id="org5b30540"><span class="section-number-4">4.1.3.</span> Conclusion</h4>
+<div class="outline-text-4" id="text-4-1-3">
+<p>
+You can summarize the points you have made or the overall idea. It is recommended, however, that you end strongly, possibly with:
+</p>
+<ol class="org-ol">
+<li>a catchphrase</li>
+<li>a triad</li>
+<li>a short sentence</li>
+<li>a powerful image</li>
+<li>a rhetorical question</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb54a519" class="outline-3">
+<h3 id="orgb54a519"><span class="section-number-3">4.2.</span> Logos/ethos/pathos</h3>
+<div class="outline-text-3" id="text-4-2">
+</div>
+<div id="outline-container-org472a615" class="outline-4">
+<h4 id="org472a615"><span class="section-number-4">4.2.1.</span> Logos</h4>
+<div class="outline-text-4" id="text-4-2-1">
+<p>
+Logos refers to the usage of logic. It is a statement, sentence or argument used to convince or persuade the targeted audience by employing reason or logic. Arguments using logos depend on pathos and ethos.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfd6b367" class="outline-4">
+<h4 id="orgfd6b367"><span class="section-number-4">4.2.2.</span> Ethos</h4>
+<div class="outline-text-4" id="text-4-2-2">
+<p>
+Ethos is a statement, sentence or argument that appeals to the emotions of the audience.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbbf9321" class="outline-4">
+<h4 id="orgbbf9321"><span class="section-number-4">4.2.3.</span> Pathos</h4>
+<div class="outline-text-4" id="text-4-2-3">
+<p>
+Pathos is a statement, sentence or argument that defines one&rsquo;s credibility.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org683d255" class="outline-3">
+<h3 id="org683d255"><span class="section-number-3">4.3.</span> Other notes</h3>
+<div class="outline-text-3" id="text-4-3">
+<ol class="org-ol">
+<li>You should have points agreeing and disagreeing with your argument.</li>
+<li>Ending with the most effective point that agrees with your stance helps strengthen your speech.</li>
+<li>Making a plan (with points for/against) will help you write a balanced speech.</li>
+<li>Remember who your audience is.</li>
+<li>You must have evidence that supports your stance in order to make it realistic enough to convince your audience.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Shayan Naqvi</p>
+<p class="date">Created: 2022-09-28 Wed 20:38</p>
+</div>
+</body>
+</html>

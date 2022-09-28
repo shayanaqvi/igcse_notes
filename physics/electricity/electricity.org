@@ -1,0 +1,14 @@
+#+title:Electricity
+* Charges
+The charge of a particle affects its properties.
+- Like charges (positive <-> positive, negative <-> negative) repel.
+- Opposite charges (positive <-> negative) attract.
+- Neutral charges attract with positive/negative charges.
+  - Neutrons carry both positive and negative charges; if it comes with close proximity with a charged object, the corresponding charges in the neutron will attract and repel.
+* Electric fields
+A region or space around a unit positive charge where it experiences an electrostatic force is known as an electric field.
+[[file:/home/shayan/Documents/org/notes/school/O3/physics/electricity/fig1.png]]
+[[file:/home/shayan/Documents/org/notes/school/O3/physics/electricity/fig2.png]]
+#+CAPTION: (Uniform field (uniform strength))
+[[file:/home/shayan/Documents/org/notes/school/O3/physics/electricity/fig3.png]]
+- The proximity of the field lines of an electric field determine how strong the field is. The closer the proximity, the stronger the field; the farther the proximity, the weaker the field.

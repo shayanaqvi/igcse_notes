@@ -1,0 +1,36 @@
+#+title: Physics
+#+author: Shayan Naqvi
+* Magnetism
+** Poles
+A pole is a place in a megnet towards which magnetic materials are attracted. They are situated near the ends of a bar magnet and are equal in strength. There are two poles on a magnet; a north pole and a south pole.
+*** Attraction
+Similar poles repel (e.g., north to north or south to south), while opposite poles attract (e.g., north to south and vice versa).
+** Materials
+*** Magnetic materials
+Materials which are formed from metals such as iron, steel, nickel and cobalt and can be magnetised temporarily or permanently are known as magnetic materials.
+*** Non-magnetic materials
+Materials such as aluminium and wood which cannot be magnetised neither temporarily nor permanently are known as non-magnetic materials.
+** Charging
+*** Induction
+Induced magnetism occurs when a piece of unmagetised magnetic material touches, or is brought near to the pole of a permanent magnet. This causes the unmagetised material to become a magnet.
+** Types of magnets
+*** Temporary magnet (soft magnet)
+Such magnets are made of soft iron, and they lose their magnetism easily. Thus, they are quick to charge and discharge and do not retain their magnetism for long.
+*** Permanent magnet (hard magnet)
+Such magnets are made of steel; they retain their magnetism for longer. Thus, they take longer to charge and discharge and by extension retain their magnetism for longer periods of time.
+** Magnetic fields
+A magnetic field is the space surrounding a magnet where it produces a magnetic force. This field can be detected and varies in direction. This can be tested for using iron fillings, as an example.
+* Electricity
+** Charges
+There are two kinds of electric charge.
+1. Positive charge (+)
+2. Negative charge (-)
+*** Attraction
+As with magnets, similar charges repel while opposite charges attract.
+** Particles
+*** Protons
+Protons are positively charged particles.
+*** Electrons
+Electrons are negatively charged particles. They carry the flow of electricity in a circuit.
+*** Neutrons
+Neutrons are uncharged particles; they contain an equal number of both positive and negative charges.

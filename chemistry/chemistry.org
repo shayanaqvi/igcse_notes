@@ -1,0 +1,640 @@
+#+title: Chemistry
+#+author: Shayan Naqvi
+* Bonding
+** Ionic Bonding
+Bonding via the transfer of electrons.
+** Covalent Bonding
+Bonding via the sharing of electrons.
+** Metallic Bonding
+Bonding between metallic ions and free electrons.
+** Number of bonds
+1. C = 4
+2. N = 3
+3. O = 2
+4. H = 1
+5. Halogens = 1
+* Identification
+** Identification of cations
+|                         | Sodium Hydroxide, \(NaOH (aq)\)                                                                         |                                                                 | Aqueous Ammonia, \(NH_3 (aq)\) |                                                                 |
+| Cation                  | On addition of a few drops                                                                              | On addition of excess                                           | On addition of a few drops     | On addition of excess                                           |
+|-------------------------+---------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+--------------------------------+-----------------------------------------------------------------|
+| Zinc, \(Zn^{2+}\)       | White precipitate                                                                                       | Colourless solution (precipitate dissolves in excess)           | White precipitate              | Colourless solution (precipitate dissolves in excess)           |
+| Aluminium, \(Al^{3+}\)  | White precipitate                                                                                       | Colourless solution (precipitate dissolves in excess)           | White precipitate              | Precipitate does not dissolve in excess (insoluble precipitate) |
+| Lead(II), \(Pb^{2+}\)   | White precipitate                                                                                       | Colourless solution (precipitate dissolves in excess)           | White precipitate              | Precipitate does not dissolve in excess (insoluble precipitate) |
+| Calcium, \(Ca^{2+}\)    | White precipitate                                                                                       | Precipitate does not dissolve in excess (insoluble precipitate) | No precipitate                 | No precipitate                                                  |
+| Copper(II), \(Cu^{2+}\) | Light blue precipitate                                                                                  | Precipitate does not dissolve in excess (insoluble precipitate) | Light blue precipitate         | Deep blue solution (soluble precipitate)                        |
+| Iron(II), \(Fe^{2+}\)   | Green precipitate                                                                                       | Precipitate does not dissolve in excess (insoluble precipitate) | Green precipitate              | Precipitate does not dissolve in excess (insoluble precipitate) |
+| Iron(III), \(Fe^{3+}\)  | Reddish-brown precipitate                                                                               | Precipitate does not dissolve in excess (insoluble precipitate) | Reddish-brown precipitate      | Precipitate does not dissolve in excess (insoluble precipitate) |
+| Ammonium, \(NH_4^+\)    | No precipitate. However, if heated, ammonia gas is released, which turns *moist red litmus paper blue*. | No change is observed                                           | -                              | -                                                               |
+** Identification of anions
+| Anion                    | Test                                                                                                                                                                   | Observation(s)                                                |
+|--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
+| Carbonate, \(CO_3^{2-}\) | Addition of dilute hydrochloric acid, (\(HCl\)). Pass the gas released into limewater.                                                                                 | 1. Observation of effervescence.                              |
+|                          |                                                                                                                                                                        | 2. The gas released forms a white precipitate with limewater. |
+|                          |                                                                                                                                                                        | 3. Carbon dioxide gas is given off.                           |
+| Nitrate, \(NO_3^-\)      | Addition of sodium hydroxide, \(NaOH\), and proceed to add a piece of aluminium foil. Warm the mixture. Test the gas given off with a piece of moist red litmus paper. | 1. Observation of effervescence.                              |
+|                          |                                                                                                                                                                        | 2. The moist red litmus paper turns blue.                     |
+|                          |                                                                                                                                                                        | 3. Ammonia gas is given off.                                  |
+| Sulfate, \(SO_4^{2-}\)   | Addition of dilute nitric acid, \(HNO_3\). Proceed to add a solution of barium nitrate, \(Ba(NO_3)_2\).                                                                | A white precipitate of barium sulfate is formed.              |
+| Chloride, \(Cl^{-}\)     | Addition of dilute nitric acid, \(HNO_3\). Proceed to add a silver nitrate solution, \(AgNO_3\).                                                                       | A white precipitate of silver chloride is formed.             |
+| Iodide, \(I^-\)          | Addition of dilute nitric acid, \(HNO_3\), then silver nitrate, \(AgNO_3\).                                                                                            | A yellow precipitate of silver iodide is formed.              |
+** Identification of gases
+| Gas                      | Colour and odour                  | Test                                                                                                | Observation(s)                                                                                                  |
+|--------------------------+-----------------------------------+-----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------|
+| Hydrogen, \(H_2\)        | Colourless and odourless          | Lighted splint (at the mouth of the test tube)                                                      | The lighted splint is extinguished with a 'pop' sound                                                           |
+| Oxygen, \(O_2\)          | Colourless and odourless          | Glowing splint (into the test tube)                                                                 | The glowing splint if rekindled (catches fire again)                                                            |
+| Carbon dioxide, \(CO_2\) | Colourless and odourless          | Bubble the gas through limewater                                                                    | A white precipitate is formed, which dissolves into limewater, giving it a milky colour (limewater turns milky) |
+| ---                      | ---                               | ---                                                                                                 | ---                                                                                                             |
+| Chlorine                 | Greenish-yellow and pungent smell | Moist blue litmus paper at the mouth of the test tube                                               | The moist blue litmus turns blue and is then bleached                                                           |
+| Sulfur dioxide, \(SO_2\) | Colourless and pungent smell      | Fiter paper soaked in acidified \(KMnO_4\) (potassium manganate(VII) at the mouth of the test tube) | The purple acidified \(KMnO_4\) turns colourless                                                                |
+| Ammonia, \(NH_3\)        | Colourless and pungent smell      | Moist red litmus paper at the mouth of the test tube                                                | The moist red litmus turns blue                                                                                 |
+** Identification of water
+| Test                                                                                                      | Observation                                             |
+|-----------------------------------------------------------------------------------------------------------+---------------------------------------------------------|
+| Heat the sample in a test tube. Place a piece of cobalt(II) chloride paper at the mouth of the test tube. | Cobalt(II) chloride paper changes from blue to pink.    |
+| Add a few drops of the sample to some anhydrous copper(II) sulfate.                                       | Anydrous copper(II) sulfate changes from white to blue. |
+* Redox reactions
+** Oxidation
+Oxidation is,
+1. the gain of oxygen during a chemical reaction
+2. an increase in oxidation state
+3. the loss of hydrogen during a chemical reaction
+4. the loss of electrons during a chemical reaction
+*** Examples
+- \(S(s) + O_2(g) --> SO_2(g)\) (sulfur has been oxidised to sulfur dioxide)
+- \(H_2S(g) + Cl_2 --> S(s) + 2HCl(g)\) (hydrogen sulfide has lost hydrogen and has oxidised to sulfur)
+- \(Mg --> Mg^{2+} + 2e^-\) (magnesium has lost electrons and has been oxidised)
+*** Oxidation state
+Oxidation state refers to the hypothetical charge an element/atom would have if it was an ion in a compound.
+**** Determining an oxidation state
+| Rule                                                                                                  | Example(s)                                                                          | Oxidation state                                        |
+|-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------|
+| The oxidation state of an element (on its own) is zero.                                               | \(Cu\)                                                                              | 0                                                      |
+| The oxidation state of a simple ion is the same as its charge.                                        | \(Li^+, O^{-2}\)                                                                    | \(Li^+=+1\), \(O^{2-}=-2\)                             |
+| Some elements have a fixed oxidation state in their compounds.                                        | Elements from group 1, group 2, hydrogen in most compounds, oxygen i most compounds | group 1 = +1, group 2 = +2, hydrogen = +1, oxygen = -2 |
+| The oxidation states of the elements/atoms in a compounds sum to zero.                                | \(MgO --> +2 + (-2) = 0\), \(K_2O --> 2(+1) + (-2) = 0\)                            | 0 for both examples                                    |
+| The sum of oxidation states of a polyatomic ion (e.g., \(OH^-\)) is the same as the charge on the ion | \(OH^- --> -2 + 1 = -1\)                                                            | -1                                                     |
+** Reduction
+Reduction is,
+1. the loss of oxygen during a chemical reaction
+2. a decrease in oxidation state
+3. the gain of hydrogen during a chemical reaction
+4. the gain of electrons during a chemical reaction
+*** Examples
+- \(2Al(s) + 3CuO(s) --> Al_2O_3(s) + 3Cu(l)\) (copper oxide has been reduced to copper)
+- \(H_2(g) + Cl_2(g) --> S(s) + 2HCl(g)\) (chlorine has gained hydrogen and has thereby been reduced to hydrochloric acid)
+- \(Cl_2 + 2e^- --> 2Cl^-\) (chlorine has gained electrons and has been reduced)
+** Identifying a redox reaction
+*** Redox in terms of gain/loss of oxygen
+If an element/atom is oxidised or reduced, the reaction is redox. For e.g.,
+- \(Zn(s)+CuO(s) --> ZnO(s) + Cu(s)\)
+Here, zinc is oxidised (becomes \(ZnO\)), and copper is reduced (becomes \(Cu\)).
+*** Redox in terms of gain/loss of electrons
+If an element/atom gains or loses electrons, the reaction is redox. For e.g.,
+- \(Zn(s)+Cu^{2+}(s) --> Zn^{2+}(s)+Cu(s)\)
+Here, zinc gains electrons (goes from \(Zn\) to \(Zn^{2+}\)) and is therefore oxidised, while copper loses electrons (goes from \(Cu^{2+}\) to \(Cu\)) and is therby reduced.
+*** Redox in terms of changes in oxidation states
+If the oxidation state of an element/atom increases or decreases, the reaction is redox. For e.g.,
+| \(Zn(s)\) | + | \(CuO(s)\) | --> | \(ZnO(s)\) | + | \(Cu(s)\) |
+|         0 |   |         +2 |     |         +2 |   |         0 |
+Here, the oxidation state of zinc goes from 0 to +2, meaning it has been oxidised. The oxidation state of copper goes from +2 to 0, meaning it has been reduced.
+** Agents
+If a substance is oxidised, any substance that is reduced is its oxidising agent. If a substance is reduced, any substance that is oxidised is its reducing agent.
+*** Oxidising agent
+An oxidising agent is a substance that causes another substance to oxidise.
+**** Identifiying an oxidising agent
+Consider the following reaction:
+- \(Cl_2(g) + H_2S(g) --> 2HCl(g) + S(s)\)
+Here, sulfur has lost hydrogen and has therefore been oxidised. In this case, the oxidising agent would be \(Cl_2\).
+*** Reducing agent
+A reducing agent is a substance that causes another substance to reduce.
+**** Identifying a reducing agent
+Consider the following reaction:
+- \(Cl_2(g) + H_2S(g) --> 2HCl(g) + S(s)\)
+Here, chlorine has gained hydrogen and has therefore been reduced to hydrochloric acid. Therefore, the reducing agent would be \(H_2S(g)\).
+*** Identification/tests
+**** Identification of oxidising agents
+\(KI(aq)\) or starch-iodide paper can be used to test the presence of an oxidising agent. \(\KI\)
+| Test                                                       | Observation                                      | Explanation                                                                                                                                  |
+|------------------------------------------------------------+--------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------|
+| Add \(KI(aq)\) to the unkown solution                      | A brown solution is formed                       | Iodide ions are oxidised to iodine through the oxidising agent in the solution (\(2I^-(aq) --> I_2(aq) + 2e^-\))                             |
+| Dip a piece of starch-iodide paper in the unknown solution | The starch-iodide paper turns from white to blue | Iodide ions are oxidised to iodine through the oxidising agent, which subsequently reacts with the starch in the paper to form a blue colour |
+**** Identification of reducing agents
+Acidified \(KMnO_4\)(Mn(VII)) can be used to test the presence of a reducing agent.
+| Test                                                                                                                 | Observation                                                             | Explanation                                                                                                                                                                                      |
+|----------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| If a gas is to be tested, place a piece of filter paper soaked in acidified \(KMnO_4\) at the mouth of the test tube | The filter paper turns from purple to colourless                        | The manganate(VII) ion (\(MnO_4\)) is reduced to maganese (\(Mn^{2+}\)). The oxidation state decreases from 7 to 2 (\(MnO_4^-(aq)(purple)+8H^+(aq)+5e^--->Mn^{2+}(aq)(colourless) + 4H_2O(l)\))  |
+| If a solution is to be tested, add acidified \(KMnO_4\) to the unknown solution                                      | The colour of the \(KMnO_4\) solution changes from purple to colourless | The manganate(VII) ion (\(MnO_4\)) is reduced to maganese (\(Mn^{2+}\)). The oxidation state decreases from 7 to 2 (\(MnO_4^-(aq)(purple)+8H^+(aq)+5e^--->Mn^{2+}(aq)(colourless) + 4H_2O(l)\))  |
+* Organic chemistry
+** Compounds
+*** Organic compounds
+An organic compound is a compound that contains carbon. For e.g.,
+- $CH_4$
+- $CH_3COOH$
+- $C_2H_6$
+- $C_6H_{12}O_6$
+*** Inorganic compounds
+An inorganic compound is a compound that does not contain carbon. For e.g.,
+- $NaCl$
+- $SO_2$
+- $NH_3$
+- $H_2O$
+*** Exceptions
+There are exceptions for both organic and inorganic compounds. Exceptions for organic compounds include:
+- $H$
+- $N$
+- $P$
+Exceptions for inorganic compounds include:
+- $CaCO_3$
+- $CaC_2$
+- $Na_2CO_3$
+** Functional groups
+A functional group is an atom or a group of atoms that gives a molecule its characteristic properties. Examples for functional groups include:
+- $C$
+- $OH$
+- $COOH$
+** Hydrocarbons
+A hydrocarbon is an organic compound that includes only hydrogen and carbon atoms. Examples include:
+- $CH_4$
+- $C_2H_6$
+*** Classification of hydrocarbons
+There are two categories of hydrocarbons:
+1. Saturated hydrocarbons
+   - Belongs to the 'Alkane' homologous series  ([[Alkane homologous series]])
+2. Unsaturated hydrocarbons
+   - Belongs to the 'Alkene' homologous series ([[Alkene homologous series]])
+*** Differences between saturated and unsaturated hydrocarbons
+|                         | Homologous Series | General Formula | Bond  |
+|-------------------------+-------------------+-----------------+-------|
+| Saturated hydrocarbon   | Alkane            | $C_nH_{2n+2}$   | C - C |
+| Unsaturated hydrocarbon | Alkene            | $C_nH_{2n}$     | C = C |
+** Homologous series
+The homologous series is a family of organic compounds with the same functional group and similar chemical properties. Organic compounds in the same homologous series have the following characteristics:
+- They have the same functional group
+- They have similar chemical properties
+- There is a gradual change in their physical properties the further down the series, due to a change in the size of the atoms.
+*** Alkane homologous series
+*General formula*: $C_nH_{2n+2}$
+| Name    | Molecular Formula |
+|---------+-------------------|
+| Methane | $CH_4$            |
+| Ethane  | $C_2H_6$          |
+| Propane | $C_3H_8$          |
+| Butane  | $C_4H_{10}$       |
+| ...     | ...               |
+**** Molecular structure of Alkanes
+Alkanes are saturated hydrocarbons, meaning there are only single carbon-carbon bonds (C-C).
+**** Physical properties of Alkanes
+a) Melting/boiling point
+   - Generally low melting and boiling points.
+   - The melting point increases down the group due to an increase in the number of bonds between the molecules (more heat is needed to overcome more bonds).
+b) Flammability
+   - The flammability of Alkanes decreases down the group due to an increase in the size of molecules. Larger molecules are harder to burn and therefore ouput less flame.
+c) Viscosity
+   - The viscosity (thickness/difficulty of flow) of Alkanes increases down the group due to an increase in the size of molecules. The state of Alkanes gradually changes from gaseous (first 4) to liquid to solid.
+**** Chemical properties of Alkanes
+a) Reactivity
+   - Alkanes are unreactive hydrocarbons.
+   - Are insoluble in water.
+   - Are soluble in organic solvents.
+b) Combustion
+   - This refers to the burning of an Alkane in the presence/with a supply of oxygen.
+     1. Complete combustion
+        - $CH_4 + 2O_2$ --> $CO_2 + H_2O + heat$
+          - Occurs with a sufficient supply of oxygen.
+          - Carbon dioxide is produced.
+     2. Incomplete combustion
+        - $CH_4 + O_2$ --> $CO + H_2O + heat$
+          - Occurs with an insufficient supply of oxygen.
+          - Carbonx monoxide is produced (poisonous).
+c) Substitution reactions
+   - This reaction (chlorination of methane) takes place in UV radiation. For e.g., Methane + Chloride (4 steps):
+     1. $CH_4 + Cl_2$  $\frac{UV}{-->}$  $HCl + CH_3Cl$ (monochloro methane)
+     2. $CH_3Cl + Cl_2$  $\frac{UV}{-->}$  $HCl + CH_2Cl_2$ (dichloro methane)
+     3. $CH_2Cl_2 + Cl_2$  $\frac{UV}{-->}$  $HCl + CHCl_3$ (trichloro methane)
+     4. $CHCl_3 + Cl_2$  $\frac{UV}{-->}$  $HCl + CCl_4$ (tetrachloro methane)
+*** Alkene homologous series
+*General formula*: $C_nH_{2n}$
+| Name    | Molecular Formula |
+|---------+-------------------|
+| Methene | Does not exist    |
+| Ethene  | $C_2H_4$          |
+| Propene | $C_3H_6$          |
+| Butene  | $C_4H_8$          |
+| ...     | ...               |
+**** Molecular structure of Alkenes
+Alkenes are unsaturated hydrocarbons, meaning there is one double carbon-carbon bond (C=C).
+**** Addition reactions of Alkenes
+Alkenes are reactive hydrocarbons.
+a) Hydrogenation
+   - The addition of hydrogen to an unsatured hydrocarbon is known as hydrogenation. For e.g., Ethene + Hydrogen:
+     - $Ethene + H_2$ --> $Ethane$ ($C_2H_4 + H_2$ --> $C_2H_6$).
+     Hydrogenation turns an Alkene into an Alkane.
+   - Prerequisites for hydrogenation
+     1. Catalyst (nickel)
+     2. Temperature (200°C)
+b) Bromination
+   - The passing of bromine water (liquid bromine)(reddish-brown) through hydrocarbons for the purpose of identification. For e.g., Bromine water + Ethene:
+     - $C_2H_4 + Br_2$ --> $C_2H_4Br$ (Dibromo Ethane)
+       - The colour transitions from reddish-brown --> colourless.
+   - When a hydrocarbon becomes colourless after reacting with bromine water, it means it is unsaturated.
+c) Hydration
+   - Alkenes can react with steam to produce an alcohol. For e.g., Ethene + Water: $C_2H_4 + H_2O (g)$ --> $C_2H_4OH$ (Ethanol)
+   - Prerequisites for hydration
+     1. Catalyst (Phosphoric Acid ($H_3PO_4$))
+     2. Temperature (300°C)
+     3. Pressure (60°C)
+d) Polymerization
+   - Alkenes make long-chain molecules at high temperature + presure. For e.g., polymerization of ethene:
+     - Ethene $\frac{high\ temperature + high\ pressure}{-->} Polythene/Poly-ethene$
+     - $n(CH=CH)$ $\frac{polymerization}{-->}$ $(-CH_2-CH_2-)_n$ (monomer --> polymer)
+   - A monomer is a small unit of a polymer that is repeated multiple times.
+   - A polymer is a long-chain molecule.
+**** Preparation of Alkenes via cracking of Alkanes
+Alkanes are cracked in order to prepare an Alkene + other products:
+- $Long-chain\ Alkane$ $\frac{cracking}{-->}$ $[mixture\ of\ short-chain\ Alkenes] + [mixture\ of\ short-chain\ Alkanes\ OR\ Hydrogen]$
+For e.g.,
+- $C_{18}H_{38}$ $\frac{cracking}{-->}$ $C_{10}H_{20} + C_8H_{16} + H_2$
+*** Alkyl homologous series
+*General formula*: $C_nH_{2n+1}$
+| Name   | Molecular Formula |
+|--------+-------------------|
+| Methyl | $CH_3$            |
+| Ethyl  | $C_2H_5$          |
+| Propyl | $C_3H_7$          |
+| Butyl  | $C_4H_9$          |
+| ...    | ...               |
+Elements of the Alkyl homologous series can bond with halides:
+| Name            | Molecular Formula |
+|-----------------+-------------------|
+| Methyl Chloride | $CH_3Cl$          |
+| Ethyl Chloride  | $C_2H_5Cl$        |
+| Propyl Bromide  | $C_3H_7Br$        |
+| Butyl Fluoride  | $C_4H_9F$         |
+| ...             | ...               |
+*** Alcohol homologous series (Alkanol)
+The Alcohol homologous series consists of elements of the Alkyl homologous series bonded with hydroxide.
+*General formula*: $C_nH_{2n+1}OH$
+| Name                       | Molecular Formula |
+|----------------------------+-------------------|
+| Methyl Alcohol -> Methanol | $CH_3OH$          |
+| Ethyl Alcohol -> Ethanol   | $C_2H_5OH$        |
+| Propyl Alcohol -> Propanol | $C_3H_7OH$        |
+| Butane Alcohol -> Butanol  | $C_4H_9OH$        |
+| ...                        | ...               |
+**** Production of Ethanol
+***** Hydration
+Refer to [[Addition reactions of Alkenes]]
+***** Fermentation
+Fermentation is a process in which micro-organisms (i.e. yeast) act on carbohydrates (i.e. glucose) in the *absence of oxygen* to produce ethanol and carbon dioxide.
+****** Process of fermentation
+1. A solution of glucose is mixed with yeast and kept at 37°C.
+2. During fermentation, carbon dioxide is produced. Hence, frothing can be observed. Limewater can be used to test the presence of carbon dioxide.
+3. A dilute solution of ethanol is produced, at about 15% concentration.
+   - This happens because an alcohol content over ~15% kills the yeast and stops the process of fermentation.
+   - The diluted solution can be purified to obtain a higher ethanol concentration via fractional distillation.
+****** Precautions
+| Precaution                                                                            | Reason                                                                                                                            |
+|---------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------|
+| Temperature should be kept at ~37°C                                                   | The enzymes in the yeast work best at this temperature. Any higher then the enzymes will be denatured and fermentation shall stop |
+| The apparatus should be kept airtight; no oxygen should interfere during fermentation | Alcohol + oxygen --> Carboxylic acid + water                                                                                      |
+**** Uses of ethanol
+1. As a solvent
+2. As a fuel
+3. In cooking (methylated spirit)
+4. In foods/drinks
+*** Carboxylic acid homologous series (Alkoic)
+The carboxylic homologous series consists of elements of the alkyl homologous series bonded with $COOH$. They are weak acids, and partially ionize during reactions.
+*General formula*: $C_nH_{2n}COOH$
+| Name           | Molecular formula | Structural formula                                                                    |
+|----------------+-------------------+---------------------------------------------------------------------------------------|
+| Methanoic Acid | $HCOOH$           | [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig9.png]]  |
+| Ethanoic Acid  | $CH_3COOH$        | [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig10.png]] |
+| Propanoic Acid | $C_2H_5COOH$      | [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig11.png]] |
+| Butanoic Acid  | $C_3H_7COOH$      | [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig12.png]] |
+| ...            | ...               | ...                                                                                   |
+**** Chemical reactions
+1. With water
+   - Carboxylic acids dissolve in water & partially ionize to produce 1 hydrogen ion ($H^+$). For e.g.,
+     - $HCOOH$ $\frac{H_2O}{-->}$ $H^+ + HCOO^-$ (methanoate)
+     - $CH_3COOH$ $\frac{H_2O}{-->}$ $H^+ CH_3COO$ (ethanoate)
+     - $C_2H_5COOH$ $\frac{H_2O}{-->}$ $H^+ C_2H_5COO$ (propanoate)
+2. With bases
+   - Acid + base --> Salt + water
+     - $CH_3COOH + Ca(OH)_2$ --> $Ca(CH_3COO)_2\ (calcium\ ethanoate)\ + H_2O$
+     - $C_2H_5COOH + NaOH$ --> $NaC_2H_5COO\ (sodium\ propanoate)\ + H_2O$
+3. With carbonates
+   - Acid + carbonate --> Salt + water + carbon dioxide
+     - $HCOOH + CaCO_3$ --> $Ca(HCOO)_2 + H_2O + CO_2$
+     - $CH_3COOH + K_2CO_3$ --> $KCH_3COO + H_2O + CO_2$
+     - $C_2H_5COOH + Na_2CO_3$ --> $Na_2C_2H_5 + H_2O + CO_2$
+4. With metals
+   - Acid + metal --> Salt + hydrogen gas
+     - $Zn + CH_3COOH$ --> $Zn(CH_3COO)_2 + H_2$
+     - \(Mg + HCOOH\) --> \(MgHCOO + H_2\)
+*** Structured formulas
+Structured formulas represent the structure of a compound.
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig1.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig2.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig3.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig4.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig5.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig6.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig7.png]]
+*** Esters
+Esters are formed when a mixture of alcohol and carboxylic acid is heated. The products formed are an alkyl alkanoate along with water.
+**** Naming
+There are two parts to the name of an ester:
+1. Alcohol
+2. Carboxylic Acid
+For e.g.,
+|    | Alcohol  | Carboxylic Acid | Products                    | Chemical Equation                                |
+|----+----------+-----------------+-----------------------------+--------------------------------------------------|
+| 1. | Ethanol  | Ethanoic Acid   | Ethyl Ethanoate and Water   | \(C_2H_5OH + CH_3COOH --> C_2H_5CH_3COO + H_2O\) |
+| 2. | Methanol | Methanoic Acid  | Methyl Methanoate and Water | \(CH_3OH + HCOOH --> CH_3COO + H_2O\)            |
+| 3. | Ethanol  | Methanoic Acid  | Ethyl Methanoate and Water  | \(C_2H_5OH + HCOOH --> C_2H_5COO + H_2O\)        |
+**** Structure
+1. Methyl Ethanoate (Ethanoic Acid + Methanol)
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig13.png]]
+2. Ethyl Methanoate (Methanoic Acid + Ethanol)
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig14.png]]
+1. Ethyl Ethanoate (Ethanoic Acid + Ethanol)
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig15.png]]
+***** Ester linkage
+An ester linkage is \(O=C-O-H\). The carbon bonds in an ester linkage are incomplete (3 of 4).
+**** Uses of esters
+1. Artificial flavouring (courtesy of its fragrance)
+2. Solvents (in cosmetics, perfumes, glue, etc)
+3. Production of soaps (when fats are boiled with sodium hydroxide)
+** Isomers
+Compounds which have the same molecular formula but different structural formulas are known as isomers.
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig8.png]]
+** Fractional distillation of petroleum
+Petroleum is a naturally-occuring liquid mixture of hydrocarbons, that is dark-brown in colour, has a high viscosity and is foul-smelling. In its unrefined form, petroleum is known as crude oil. In order for it to be used, it has to be refined first. This refining is done via fractional distillation.
+*** Process
+1. In its raw form, petroleum is heated and vapourised.
+2. The vapours are passed into the fractionating column.
+3. The vapours rise up the fractionating column. The fractionating column is made up of a series of shelfs of varying temperatures. The lower shelves have a high temperature, the higher shelves have a lower temperature. When the vapours meet a shelf that is lower in temperature than its boiling point, it condenses and is collected.
+*** Fractions
+A total of 7 fractions are collected from this process:
+1. Petroleum gas
+2. Gasoline
+3. Naptha
+4. Kerosene
+5. Diesel
+6. Lubricating oil
+7. Bitumen
+**** Uses
+1. Petroleum gas
+   - Used as fuel for cooking/heating.
+2. Gasoline
+   - Used as a fuel for vehicles.
+3. Naptha
+   - Used in the production of petrochemicals, i.e. plastics and detergents.
+4. Kerosene
+   - Used as a fuel for aircrafts.
+5. Diesel
+   - Used as a fuel for diesel engines in buses, lorries and trains.
+6. Lubricating oil
+   - Used to lubricate machines/produce waxes + polishes.
+** Polymers/Polymerization
+A polymer is a long-chain molecule, made up of repeat units known as monomers.
+*** Types of polymerization
+a) Addition polymerization
+   - E.g.,
+     - polythene
+     - PVC (poly-vinyl chloride)
+     - teflon
+     - polystyrene
+b) Condensation polymerization
+   - E.g.,
+     - nylon (polyamide)
+     - terylene (polyester)
+| Addition polymerization          | Condensation polymerization |
+|----------------------------------+-----------------------------|
+| Same monomer                     | Different monomer           |
+| No secondary substance is formed | Water is formed             |
+*** Addition polymerization
+**** Structures
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig16.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig17.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig18.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig19.png]]
+**** Uses
+***** Polythene
+- Plastic products, e.g.,
+  - Clingfilm
+  - Plastic bags
+  - Buckets
+  - Plastic toys
+***** PVC
+- Pipes
+- Raincoats
+- Thin gloves
+- Flooring mats
+***** Teflon
+- Non-stick frying pans
+***** Polystyrene
+- Disposable containers
+*** Condensation polymerization
+**** Linkages
+There are two linkages with condensed polymers:
+- Ester linkages (\(O=C-O-\) (carbon bonds are 3 of 4))
+- Amide linkages (\(O=C-N-H\) (carbon bonds are 3 of 4))
+**** Ester linkage
+Formed from Di-carboxylic acid + Di-alcohol (diol) and yields a polyester and water.
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig20.png]]
+**** Amide linkage
+Formed from Di-carboxylic acid + Di-amide and yields a polyamide and water.
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig21.png]]
+*** Natural polymers
+**** Protein
+- Made of amino acids (being the monomers of protein)
+- Can be separated via chromatography (with ninhydrin as locating agent)
+***** Structure of amino acids
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig23.png]]
+- An amino acid is made up of a carbon atom bonded with:
+  1. The amine functional group, (\(NH_2\))
+  2. Hydrogen
+  3. An alkyl
+  4. The carboxylic acid functional group, (\(COOH\))
+***** Formation of proteins via condensation polymerization
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig22.png]]
+- The linkage is *not* the amide linkage. Though it is the same, in a protein, this linkage is called a *peptide link*.
+- Because this is condensation polymerization, water is formed.
+* Moles
+** Formulas
+*** Moles <-> Mass
+$Mole = \frac{Mass(grams)}{Ar\ or\ Mr}$
+*** Moles <-> Particles
+$Mole = \frac{Total\ number\ of\ particles}{6*10^{23}\ (Avogadro's\ Number)}$
+*** Moles <-> Volume of gas
+$dm^3$ --> $cm^3$ = $*1000$
+$cm^3$ --> $dm^3$ = $/1000$
+**** $dm^3$
+$Mole = \frac{Volume\ of\ gas\ (dm^3)}{24}$
+**** $cm^3$
+$Mole = \frac{Volume\ of\ gas\ (cm^3)}{24000}$
+*** Moles <-> Concentration
+**** $g/dm^3$
+$Concentration = \frac{Mass\ of\ solute}{Volume\ of\ solution}$
+**** $mol/dm^3$
+$Concentration = \frac{Moles\ of\ solute}{Volume\ of\ solution}$
+* Electrolysis
+** Key points
+1. Ions
+2. Selective discharge
+3. Concentration of elecrolyte
+4. Nature of electrodes
+5. Reactions at anode and cathode
+6. Changes in electrolyte
+7. Identification
+8. Diagrams
+** Basic Terms
+*** Ions
+A particle with a positive or negative charge.
+- Anions are negatively charged ions.
+- Cations are positively charged ions.
+*** Electrodes
+A metal/non-metal (i.e. graphite) that conducts electricity.
+Anions(-) --> Anode(\+); Cations(+)--> Cathode(-)
+- Anodes
+  Positively charged electrode
+- Cathode
+  Negatively charged electrode
+*** Ionization
+The process by which a particle is positively or negatively charged.
+*** Redox
+A chemical reaction involving the oxidation/reduction of elements.
+- Oxidation
+  A rise in the oxidation state
+- Reduction
+  A decrease in the oxidation state
+*** Electrochemical cells
+An electrolytic cell that handled electrical and chemical energy.
+- Simple/Volatic cell
+  Chemical energy --> electric energy
+- Electrolytic cell
+  Electric energy --> chemical energy
+*** Electrolytes
+An ionic compound (fused/aqueous) that conducts electricity, thereby forming anions and cations.
+- Strong electrolytes
+  Easily conducts electricity
+- Weak electrolytes
+  Conducts electricity, but not as easily
+** Simple cells vs electrochemical cells
+*** Simple cells
+- Chemical energy --> electric energy
+- Spontaneous reaction
+*** Electrochemical cells
+- Electric energy --> chemical energy
+- Non-spontaneous reaction
+** Selective discharge
+*** Selective discharge of anions
+Ease of discharge increases down the group, i.e. #9 has preference over #1 when it comes to discharging at the anode.
+1. Potassium ion, \(K^+\)
+2. Sodium ion, \(Na^+\)
+3. Calcium ion, \(Ca^{2+}\)
+4. Magnesium ion, \(Mg^{2+}\)
+5. Zinc ion, \(Zn^{2+}\)
+6. Lead ion, \(Pb^{2+}\)
+7. Hydrogen ion, \(H^+\)
+8. Copper(II) ion, \(Cu^{2+}\)
+9. Silver ion, \(Ag^+\)
+*** Selective discharge of cations
+Ease of discharge increases down the group, i.e. #6 has preference over #1 when it comes to discharging at the cathode.
+1. Sulfate ion, \(SO_4^{2-}\)
+2. Nitrate ion, \(NO_3^-\)
+3. Chloride ion, \(Cl^-\)
+4. Bromide ion, \(Br^-\)
+5. Iodide ion, \(I^-\)
+6. Hydroxide ion, \(OH^-\)
+** Concentration of electrolyte
+The concentration of the electrolyte should be kept in mind, since different levels of concentration yield different results.
+|                                | Ions                      | Reaction at anode                            | Reaction at cathode                                                                         | Change in electrolyte                            |
+|--------------------------------+---------------------------+----------------------------------------------+---------------------------------------------------------------------------------------------+--------------------------------------------------|
+| Sodium Chloride (aq)           | \(Na^+, Cl^-, H^+, OH^-\) | \(4OH^- --> 4e^- (aq) + H_2O (l) + O_2 (g)\) | \(2H^+ + 2e^- --> H_2 (g)\)                                                                 | Concentration of \(NaCl\) increases              |
+| Sodium Chloride (concentrated) | \(Na^+, Cl^-, H^+, OH^-\) | \(2Cl^- --> 2e^- (aq) + Cl_2 (s)\)           | \(2H^+ + 2e^- --> H_2 (g)\) (because sodium reacts with \(OH\) before it can be discharged) | \(NaOH\) forms, turning the electrolyte alkaline |
+** Nature of electrodes
+The material of the electrode can yield different results. A reactive electrode may partake in the process of electrolysis, while an unreactive electrode does not.
+** Reaction at anode and cathode
+*** Anode
+Oxidation occurs at the anode.
+*** Cathode
+Reduction occurs at the cathode.
+** Changes in electrolyte
+Possible changes to an electrolyte after electrolysis include:
+1. Concentration
+   - The concentration of solute in the electrolyte may change after electrolysis has occurred. Take the electrolysis of Sodium Chloride (aq):
+     1. Ions
+        - \(Na^+, Cl^-, H^+, OH^-\)
+     2. Reaction at anode
+        - \(4OH^- --> 4e^- (aq) + H_2O (l) + O_2 (g)\)
+     3. Reaction at cathode
+        - \(2H^+ + 2e^- --> H_2 (g)\)
+     4. Change in electrolyte
+        - Since hydrogen and water are released in the form of gas, the elements left in the electrolyte are sodium chloride and an amount of water, less than before. This means the concentration of sodium chloride has increased after electrolysis.
+2. Colour
+   - The colour of an electrolyte may change after electrolysis. In the case of copper sulfate, for example, the electrolyte turns from blue to colourless.
+3. Acidity
+   - If a compound with hydrogen forms, i.e. \(HCl\) or \(H_2SO_4\), the electrolyte has turned acidic.
+4. Alkalinity
+   - If a compound with hydroxide forms, i.e. \(NaOH\) or \(KOH\), the electrolyte has turned alkaline.
+** Identification of products
+Refer to [[Identification]]
+* Metals
+** Extraction of metals
+**** Ores
+An ore is a mineral that contains a sufficient quantity of metal(s) that can be easily extracted.
+*** Extraction
+***** Reactive metals
+Reactive metals are separated via electrolysis. For e.g.,
+- \(Al_2O_3 --> Al^{3_}+O^{2-}\)
+***** Unreactive metals
+Unreactive metals are separated via reduction. For e.g.,
+- \(PbO + C \frac{heat}{-->} Pb + CO\)
+- \(ZnO + C \frac{heat}{-->} Zn + CO\)
+**** Extraction of iron
+***** Outline
+1. Ore
+2. Diagram labeling (blast furnace)
+3. Rise/fall in temperature
+4. Type of reaction (exothermic/endothermic)
+5. Removal of impurities (slag formation)
+6. Extraction of iron
+* Air, water and gases
+** Treatment of water
+*** Filtration
+Water is pumped out through filters to trap any large particles.
+**** Natural filtration
+Water is passed through a bed of sand (which is insoluble in water), acting as a natural filter.
+*** Coagulation
+A coagulant (i.e. \(Fe_2(SO_4)_3\) (Iron(III) sulfate)) is added to the water to make small, suspended particles stick together. Air is then blown through the water to make the coagulated particles rise to the top of the water in the form of froth/foam.
+*** Purification
+**** Charcoal
+Charcoal can be used to remove the taste and smell of water.
+**** Chlorination
+Chlorine is added to kill the bacteria and some other microbes in the water.
+** Fertilizers
+Most fertilizers are made from:
+1. nitrogen (for the chlorophyll and protein of plants)
+2. phosphorous (for the roots of a plant and the ripening of fruits)
+3. potassium (for the protein of plants)
+** Ammonia
+*** Industrial preparation of Ammonia (\(NH_3\))
+**** Raw materials
+In order to make ammonia on an industrial scale, the following is needed:
+1. Hydrogen
+   - Obtained via:
+     a) cracking of alkanes
+     b) reacting methane with steam
+2. Nitrogen
+   - Obtained via:
+     a) fractional distillation of air
+*** Haber's process
+**** Chemical reaction
+- \(N_2+3H_2 \frac{Fe, 200atm, 450°C}{<-->}2NH_3\) (reversible)
+***** Conditions
+1. 450°C (temperature)
+2. 200atm (pressure)
+3. Iron (catalyst)

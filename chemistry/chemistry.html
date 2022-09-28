@@ -1,0 +1,2767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-09-28 Wed 21:09 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chemistry</title>
+<meta name="author" content="Shayan Naqvi" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Chemistry</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org708476c">1. Bonding</a>
+<ul>
+<li><a href="#org6eb094e">1.1. Ionic Bonding</a></li>
+<li><a href="#org475578d">1.2. Covalent Bonding</a></li>
+<li><a href="#orgfa6f412">1.3. Metallic Bonding</a></li>
+<li><a href="#org3072752">1.4. Number of bonds</a></li>
+</ul>
+</li>
+<li><a href="#org0fcdae7">2. Identification</a>
+<ul>
+<li><a href="#org4ae9e06">2.1. Identification of cations</a></li>
+<li><a href="#orgb734571">2.2. Identification of anions</a></li>
+<li><a href="#org0870b32">2.3. Identification of gases</a></li>
+<li><a href="#orgba637a2">2.4. Identification of water</a></li>
+</ul>
+</li>
+<li><a href="#org0a86c3b">3. Redox reactions</a>
+<ul>
+<li><a href="#org20f5b67">3.1. Oxidation</a>
+<ul>
+<li><a href="#orga3b727b">3.1.1. Examples</a></li>
+<li><a href="#orgf9c0d9d">3.1.2. Oxidation state</a></li>
+</ul>
+</li>
+<li><a href="#orge259025">3.2. Reduction</a>
+<ul>
+<li><a href="#org299b0c6">3.2.1. Examples</a></li>
+</ul>
+</li>
+<li><a href="#org258c002">3.3. Identifying a redox reaction</a>
+<ul>
+<li><a href="#org3aa78f5">3.3.1. Redox in terms of gain/loss of oxygen</a></li>
+<li><a href="#org4ef3d4e">3.3.2. Redox in terms of gain/loss of electrons</a></li>
+<li><a href="#org819bd80">3.3.3. Redox in terms of changes in oxidation states</a></li>
+</ul>
+</li>
+<li><a href="#orgaad80c1">3.4. Agents</a>
+<ul>
+<li><a href="#org3f95645">3.4.1. Oxidising agent</a></li>
+<li><a href="#org8f889bf">3.4.2. Reducing agent</a></li>
+<li><a href="#org3163f99">3.4.3. Identification/tests</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org3fd12aa">4. Organic chemistry</a>
+<ul>
+<li><a href="#orgec0d7d5">4.1. Compounds</a>
+<ul>
+<li><a href="#org987e4d3">4.1.1. Organic compounds</a></li>
+<li><a href="#org82adb13">4.1.2. Inorganic compounds</a></li>
+<li><a href="#org9889d45">4.1.3. Exceptions</a></li>
+</ul>
+</li>
+<li><a href="#org6002ed1">4.2. Functional groups</a></li>
+<li><a href="#orgb85d3bf">4.3. Hydrocarbons</a>
+<ul>
+<li><a href="#org0bbe186">4.3.1. Classification of hydrocarbons</a></li>
+<li><a href="#org66ed379">4.3.2. Differences between saturated and unsaturated hydrocarbons</a></li>
+</ul>
+</li>
+<li><a href="#org8ffec72">4.4. Homologous series</a>
+<ul>
+<li><a href="#org5036033">4.4.1. Alkane homologous series</a></li>
+<li><a href="#org471e695">4.4.2. Alkene homologous series</a></li>
+<li><a href="#org87b2e15">4.4.3. Alkyl homologous series</a></li>
+<li><a href="#org01a7fa1">4.4.4. Alcohol homologous series (Alkanol)</a></li>
+<li><a href="#org471984b">4.4.5. Carboxylic acid homologous series (Alkoic)</a></li>
+<li><a href="#org5b2986c">4.4.6. Structured formulas</a></li>
+<li><a href="#orgf0d8665">4.4.7. Esters</a></li>
+</ul>
+</li>
+<li><a href="#orgac31714">4.5. Isomers</a></li>
+<li><a href="#org0a476df">4.6. Fractional distillation of petroleum</a>
+<ul>
+<li><a href="#orgfded6cc">4.6.1. Process</a></li>
+<li><a href="#orgb8ed26a">4.6.2. Fractions</a></li>
+</ul>
+</li>
+<li><a href="#orge615a94">4.7. Polymers/Polymerization</a>
+<ul>
+<li><a href="#org8e15295">4.7.1. Types of polymerization</a></li>
+<li><a href="#org4e62c13">4.7.2. Addition polymerization</a></li>
+<li><a href="#orgd226e11">4.7.3. Condensation polymerization</a></li>
+<li><a href="#org5a2fac8">4.7.4. Natural polymers</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgc999fc3">5. Moles</a>
+<ul>
+<li><a href="#orgd441de8">5.1. Formulas</a>
+<ul>
+<li><a href="#orga297073">5.1.1. Moles &lt;-&gt; Mass</a></li>
+<li><a href="#org1883191">5.1.2. Moles &lt;-&gt; Particles</a></li>
+<li><a href="#orga4a895f">5.1.3. Moles &lt;-&gt; Volume of gas</a></li>
+<li><a href="#org139b736">5.1.4. Moles &lt;-&gt; Concentration</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orga92b1e2">6. Electrolysis</a>
+<ul>
+<li><a href="#orgef94eee">6.1. Key points</a></li>
+<li><a href="#orgda9343f">6.2. Basic Terms</a>
+<ul>
+<li><a href="#org98ae17d">6.2.1. Ions</a></li>
+<li><a href="#orgb0cadbb">6.2.2. Electrodes</a></li>
+<li><a href="#orgb7de7d7">6.2.3. Ionization</a></li>
+<li><a href="#orgc41e1a8">6.2.4. Redox</a></li>
+<li><a href="#org985f116">6.2.5. Electrochemical cells</a></li>
+<li><a href="#orgc8f268d">6.2.6. Electrolytes</a></li>
+</ul>
+</li>
+<li><a href="#org3da2f9b">6.3. Simple cells vs electrochemical cells</a>
+<ul>
+<li><a href="#org392709f">6.3.1. Simple cells</a></li>
+<li><a href="#orge875e97">6.3.2. Electrochemical cells</a></li>
+</ul>
+</li>
+<li><a href="#org311545d">6.4. Selective discharge</a>
+<ul>
+<li><a href="#org5d03ec1">6.4.1. Selective discharge of anions</a></li>
+<li><a href="#orga435399">6.4.2. Selective discharge of cations</a></li>
+</ul>
+</li>
+<li><a href="#org04194b9">6.5. Concentration of electrolyte</a></li>
+<li><a href="#org73a5f54">6.6. Nature of electrodes</a></li>
+<li><a href="#orgce3845e">6.7. Reaction at anode and cathode</a>
+<ul>
+<li><a href="#orgbc42df4">6.7.1. Anode</a></li>
+<li><a href="#orgda005e5">6.7.2. Cathode</a></li>
+</ul>
+</li>
+<li><a href="#org04c821b">6.8. Changes in electrolyte</a></li>
+<li><a href="#org6ab5757">6.9. Identification of products</a></li>
+</ul>
+</li>
+<li><a href="#org22ff1bd">7. Metals</a>
+<ul>
+<li><a href="#org4a182cb">7.1. Extraction of metals</a>
+<ul>
+<li><a href="#org59a5ec3">7.1.1. Extraction</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org92f88c5">8. Air, water and gases</a>
+<ul>
+<li><a href="#org166f320">8.1. Treatment of water</a>
+<ul>
+<li><a href="#org839380f">8.1.1. Filtration</a></li>
+<li><a href="#orgd6af60d">8.1.2. Coagulation</a></li>
+<li><a href="#orgf3c261a">8.1.3. Purification</a></li>
+</ul>
+</li>
+<li><a href="#org8d94fb4">8.2. Fertilizers</a></li>
+<li><a href="#orgd1dd8f6">8.3. Ammonia</a>
+<ul>
+<li><a href="#org205a0b1">8.3.1. Industrial preparation of Ammonia (\(NH_3\))</a></li>
+<li><a href="#orgb81d622">8.3.2. Haber&rsquo;s process</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org708476c" class="outline-2">
+<h2 id="org708476c"><span class="section-number-2">1.</span> Bonding</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org6eb094e" class="outline-3">
+<h3 id="org6eb094e"><span class="section-number-3">1.1.</span> Ionic Bonding</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Bonding via the transfer of electrons.
+</p>
+</div>
+</div>
+<div id="outline-container-org475578d" class="outline-3">
+<h3 id="org475578d"><span class="section-number-3">1.2.</span> Covalent Bonding</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Bonding via the sharing of electrons.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfa6f412" class="outline-3">
+<h3 id="orgfa6f412"><span class="section-number-3">1.3.</span> Metallic Bonding</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Bonding between metallic ions and free electrons.
+</p>
+</div>
+</div>
+<div id="outline-container-org3072752" class="outline-3">
+<h3 id="org3072752"><span class="section-number-3">1.4.</span> Number of bonds</h3>
+<div class="outline-text-3" id="text-1-4">
+<ol class="org-ol">
+<li>C = 4</li>
+<li>N = 3</li>
+<li>O = 2</li>
+<li>H = 1</li>
+<li>Halogens = 1</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org0fcdae7" class="outline-2">
+<h2 id="org0fcdae7"><span class="section-number-2">2.</span> Identification</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org4ae9e06" class="outline-3">
+<h3 id="org4ae9e06"><span class="section-number-3">2.1.</span> Identification of cations</h3>
+<div class="outline-text-3" id="text-2-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Sodium Hydroxide, \(NaOH (aq)\)</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Aqueous Ammonia, \(NH_3 (aq)\)</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Cation</th>
+<th scope="col" class="org-left">On addition of a few drops</th>
+<th scope="col" class="org-left">On addition of excess</th>
+<th scope="col" class="org-left">On addition of a few drops</th>
+<th scope="col" class="org-left">On addition of excess</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Zinc, \(Zn^{2+}\)</td>
+<td class="org-left">White precipitate</td>
+<td class="org-left">Colourless solution (precipitate dissolves in excess)</td>
+<td class="org-left">White precipitate</td>
+<td class="org-left">Colourless solution (precipitate dissolves in excess)</td>
+</tr>
+
+<tr>
+<td class="org-left">Aluminium, \(Al^{3+}\)</td>
+<td class="org-left">White precipitate</td>
+<td class="org-left">Colourless solution (precipitate dissolves in excess)</td>
+<td class="org-left">White precipitate</td>
+<td class="org-left">Precipitate does not dissolve in excess (insoluble precipitate)</td>
+</tr>
+
+<tr>
+<td class="org-left">Lead(II), \(Pb^{2+}\)</td>
+<td class="org-left">White precipitate</td>
+<td class="org-left">Colourless solution (precipitate dissolves in excess)</td>
+<td class="org-left">White precipitate</td>
+<td class="org-left">Precipitate does not dissolve in excess (insoluble precipitate)</td>
+</tr>
+
+<tr>
+<td class="org-left">Calcium, \(Ca^{2+}\)</td>
+<td class="org-left">White precipitate</td>
+<td class="org-left">Precipitate does not dissolve in excess (insoluble precipitate)</td>
+<td class="org-left">No precipitate</td>
+<td class="org-left">No precipitate</td>
+</tr>
+
+<tr>
+<td class="org-left">Copper(II), \(Cu^{2+}\)</td>
+<td class="org-left">Light blue precipitate</td>
+<td class="org-left">Precipitate does not dissolve in excess (insoluble precipitate)</td>
+<td class="org-left">Light blue precipitate</td>
+<td class="org-left">Deep blue solution (soluble precipitate)</td>
+</tr>
+
+<tr>
+<td class="org-left">Iron(II), \(Fe^{2+}\)</td>
+<td class="org-left">Green precipitate</td>
+<td class="org-left">Precipitate does not dissolve in excess (insoluble precipitate)</td>
+<td class="org-left">Green precipitate</td>
+<td class="org-left">Precipitate does not dissolve in excess (insoluble precipitate)</td>
+</tr>
+
+<tr>
+<td class="org-left">Iron(III), \(Fe^{3+}\)</td>
+<td class="org-left">Reddish-brown precipitate</td>
+<td class="org-left">Precipitate does not dissolve in excess (insoluble precipitate)</td>
+<td class="org-left">Reddish-brown precipitate</td>
+<td class="org-left">Precipitate does not dissolve in excess (insoluble precipitate)</td>
+</tr>
+
+<tr>
+<td class="org-left">Ammonium, \(NH_4^+\)</td>
+<td class="org-left">No precipitate. However, if heated, ammonia gas is released, which turns <b>moist red litmus paper blue</b>.</td>
+<td class="org-left">No change is observed</td>
+<td class="org-left">-</td>
+<td class="org-left">-</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgb734571" class="outline-3">
+<h3 id="orgb734571"><span class="section-number-3">2.2.</span> Identification of anions</h3>
+<div class="outline-text-3" id="text-2-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Anion</th>
+<th scope="col" class="org-left">Test</th>
+<th scope="col" class="org-left">Observation(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Carbonate, \(CO_3^{2-}\)</td>
+<td class="org-left">Addition of dilute hydrochloric acid, (\(HCl\)). Pass the gas released into limewater.</td>
+<td class="org-left">1. Observation of effervescence.</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2. The gas released forms a white precipitate with limewater.</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3. Carbon dioxide gas is given off.</td>
+</tr>
+
+<tr>
+<td class="org-left">Nitrate, \(NO_3^-\)</td>
+<td class="org-left">Addition of sodium hydroxide, \(NaOH\), and proceed to add a piece of aluminium foil. Warm the mixture. Test the gas given off with a piece of moist red litmus paper.</td>
+<td class="org-left">1. Observation of effervescence.</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2. The moist red litmus paper turns blue.</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3. Ammonia gas is given off.</td>
+</tr>
+
+<tr>
+<td class="org-left">Sulfate, \(SO_4^{2-}\)</td>
+<td class="org-left">Addition of dilute nitric acid, \(HNO_3\). Proceed to add a solution of barium nitrate, \(Ba(NO_3)_2\).</td>
+<td class="org-left">A white precipitate of barium sulfate is formed.</td>
+</tr>
+
+<tr>
+<td class="org-left">Chloride, \(Cl^{-}\)</td>
+<td class="org-left">Addition of dilute nitric acid, \(HNO_3\). Proceed to add a silver nitrate solution, \(AgNO_3\).</td>
+<td class="org-left">A white precipitate of silver chloride is formed.</td>
+</tr>
+
+<tr>
+<td class="org-left">Iodide, \(I^-\)</td>
+<td class="org-left">Addition of dilute nitric acid, \(HNO_3\), then silver nitrate, \(AgNO_3\).</td>
+<td class="org-left">A yellow precipitate of silver iodide is formed.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org0870b32" class="outline-3">
+<h3 id="org0870b32"><span class="section-number-3">2.3.</span> Identification of gases</h3>
+<div class="outline-text-3" id="text-2-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Gas</th>
+<th scope="col" class="org-left">Colour and odour</th>
+<th scope="col" class="org-left">Test</th>
+<th scope="col" class="org-left">Observation(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Hydrogen, \(H_2\)</td>
+<td class="org-left">Colourless and odourless</td>
+<td class="org-left">Lighted splint (at the mouth of the test tube)</td>
+<td class="org-left">The lighted splint is extinguished with a &rsquo;pop&rsquo; sound</td>
+</tr>
+
+<tr>
+<td class="org-left">Oxygen, \(O_2\)</td>
+<td class="org-left">Colourless and odourless</td>
+<td class="org-left">Glowing splint (into the test tube)</td>
+<td class="org-left">The glowing splint if rekindled (catches fire again)</td>
+</tr>
+
+<tr>
+<td class="org-left">Carbon dioxide, \(CO_2\)</td>
+<td class="org-left">Colourless and odourless</td>
+<td class="org-left">Bubble the gas through limewater</td>
+<td class="org-left">A white precipitate is formed, which dissolves into limewater, giving it a milky colour (limewater turns milky)</td>
+</tr>
+
+<tr>
+<td class="org-left">---</td>
+<td class="org-left">---</td>
+<td class="org-left">---</td>
+<td class="org-left">---</td>
+</tr>
+
+<tr>
+<td class="org-left">Chlorine</td>
+<td class="org-left">Greenish-yellow and pungent smell</td>
+<td class="org-left">Moist blue litmus paper at the mouth of the test tube</td>
+<td class="org-left">The moist blue litmus turns blue and is then bleached</td>
+</tr>
+
+<tr>
+<td class="org-left">Sulfur dioxide, \(SO_2\)</td>
+<td class="org-left">Colourless and pungent smell</td>
+<td class="org-left">Fiter paper soaked in acidified \(KMnO_4\) (potassium manganate(VII) at the mouth of the test tube)</td>
+<td class="org-left">The purple acidified \(KMnO_4\) turns colourless</td>
+</tr>
+
+<tr>
+<td class="org-left">Ammonia, \(NH_3\)</td>
+<td class="org-left">Colourless and pungent smell</td>
+<td class="org-left">Moist red litmus paper at the mouth of the test tube</td>
+<td class="org-left">The moist red litmus turns blue</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgba637a2" class="outline-3">
+<h3 id="orgba637a2"><span class="section-number-3">2.4.</span> Identification of water</h3>
+<div class="outline-text-3" id="text-2-4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Test</th>
+<th scope="col" class="org-left">Observation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Heat the sample in a test tube. Place a piece of cobalt(II) chloride paper at the mouth of the test tube.</td>
+<td class="org-left">Cobalt(II) chloride paper changes from blue to pink.</td>
+</tr>
+
+<tr>
+<td class="org-left">Add a few drops of the sample to some anhydrous copper(II) sulfate.</td>
+<td class="org-left">Anydrous copper(II) sulfate changes from white to blue.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-org0a86c3b" class="outline-2">
+<h2 id="org0a86c3b"><span class="section-number-2">3.</span> Redox reactions</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org20f5b67" class="outline-3">
+<h3 id="org20f5b67"><span class="section-number-3">3.1.</span> Oxidation</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Oxidation is,
+</p>
+<ol class="org-ol">
+<li>the gain of oxygen during a chemical reaction</li>
+<li>an increase in oxidation state</li>
+<li>the loss of hydrogen during a chemical reaction</li>
+<li>the loss of electrons during a chemical reaction</li>
+</ol>
+</div>
+<div id="outline-container-orga3b727b" class="outline-4">
+<h4 id="orga3b727b"><span class="section-number-4">3.1.1.</span> Examples</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<ul class="org-ul">
+<li>\(S(s) + O_2(g) --> SO_2(g)\) (sulfur has been oxidised to sulfur dioxide)</li>
+<li>\(H_2S(g) + Cl_2 --> S(s) + 2HCl(g)\) (hydrogen sulfide has lost hydrogen and has oxidised to sulfur)</li>
+<li>\(Mg --> Mg^{2+} + 2e^-\) (magnesium has lost electrons and has been oxidised)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf9c0d9d" class="outline-4">
+<h4 id="orgf9c0d9d"><span class="section-number-4">3.1.2.</span> Oxidation state</h4>
+<div class="outline-text-4" id="text-3-1-2">
+<p>
+Oxidation state refers to the hypothetical charge an element/atom would have if it was an ion in a compound.
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="org516877e"></a>Determining an oxidation state<br />
+<div class="outline-text-5" id="text-3-1-2-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Rule</th>
+<th scope="col" class="org-left">Example(s)</th>
+<th scope="col" class="org-left">Oxidation state</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">The oxidation state of an element (on its own) is zero.</td>
+<td class="org-left">\(Cu\)</td>
+<td class="org-left">0</td>
+</tr>
+
+<tr>
+<td class="org-left">The oxidation state of a simple ion is the same as its charge.</td>
+<td class="org-left">\(Li^+, O^{-2}\)</td>
+<td class="org-left">\(Li^+=+1\), \(O^{2-}=-2\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Some elements have a fixed oxidation state in their compounds.</td>
+<td class="org-left">Elements from group 1, group 2, hydrogen in most compounds, oxygen i most compounds</td>
+<td class="org-left">group 1 = +1, group 2 = +2, hydrogen = +1, oxygen = -2</td>
+</tr>
+
+<tr>
+<td class="org-left">The oxidation states of the elements/atoms in a compounds sum to zero.</td>
+<td class="org-left">\(MgO --> +2 + (-2) = 0\), \(K_2O --> 2(+1) + (-2) = 0\)</td>
+<td class="org-left">0 for both examples</td>
+</tr>
+
+<tr>
+<td class="org-left">The sum of oxidation states of a polyatomic ion (e.g., \(OH^-\)) is the same as the charge on the ion</td>
+<td class="org-left">\(OH^- --> -2 + 1 = -1\)</td>
+<td class="org-left">-1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orge259025" class="outline-3">
+<h3 id="orge259025"><span class="section-number-3">3.2.</span> Reduction</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+Reduction is,
+</p>
+<ol class="org-ol">
+<li>the loss of oxygen during a chemical reaction</li>
+<li>a decrease in oxidation state</li>
+<li>the gain of hydrogen during a chemical reaction</li>
+<li>the gain of electrons during a chemical reaction</li>
+</ol>
+</div>
+<div id="outline-container-org299b0c6" class="outline-4">
+<h4 id="org299b0c6"><span class="section-number-4">3.2.1.</span> Examples</h4>
+<div class="outline-text-4" id="text-3-2-1">
+<ul class="org-ul">
+<li>\(2Al(s) + 3CuO(s) --> Al_2O_3(s) + 3Cu(l)\) (copper oxide has been reduced to copper)</li>
+<li>\(H_2(g) + Cl_2(g) --> S(s) + 2HCl(g)\) (chlorine has gained hydrogen and has thereby been reduced to hydrochloric acid)</li>
+<li>\(Cl_2 + 2e^- --> 2Cl^-\) (chlorine has gained electrons and has been reduced)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org258c002" class="outline-3">
+<h3 id="org258c002"><span class="section-number-3">3.3.</span> Identifying a redox reaction</h3>
+<div class="outline-text-3" id="text-3-3">
+</div>
+<div id="outline-container-org3aa78f5" class="outline-4">
+<h4 id="org3aa78f5"><span class="section-number-4">3.3.1.</span> Redox in terms of gain/loss of oxygen</h4>
+<div class="outline-text-4" id="text-3-3-1">
+<p>
+If an element/atom is oxidised or reduced, the reaction is redox. For e.g.,
+</p>
+<ul class="org-ul">
+<li>\(Zn(s)+CuO(s) --> ZnO(s) + Cu(s)\)</li>
+</ul>
+<p>
+Here, zinc is oxidised (becomes \(ZnO\)), and copper is reduced (becomes \(Cu\)).
+</p>
+</div>
+</div>
+<div id="outline-container-org4ef3d4e" class="outline-4">
+<h4 id="org4ef3d4e"><span class="section-number-4">3.3.2.</span> Redox in terms of gain/loss of electrons</h4>
+<div class="outline-text-4" id="text-3-3-2">
+<p>
+If an element/atom gains or loses electrons, the reaction is redox. For e.g.,
+</p>
+<ul class="org-ul">
+<li>\(Zn(s)+Cu^{2+}(s) --> Zn^{2+}(s)+Cu(s)\)</li>
+</ul>
+<p>
+Here, zinc gains electrons (goes from \(Zn\) to \(Zn^{2+}\)) and is therefore oxidised, while copper loses electrons (goes from \(Cu^{2+}\) to \(Cu\)) and is therby reduced.
+</p>
+</div>
+</div>
+<div id="outline-container-org819bd80" class="outline-4">
+<h4 id="org819bd80"><span class="section-number-4">3.3.3.</span> Redox in terms of changes in oxidation states</h4>
+<div class="outline-text-4" id="text-3-3-3">
+<p>
+If the oxidation state of an element/atom increases or decreases, the reaction is redox. For e.g.,
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-right">\(Zn(s)\)</td>
+<td class="org-left">+</td>
+<td class="org-right">\(CuO(s)\)</td>
+<td class="org-left">&#x2013;&gt;</td>
+<td class="org-right">\(ZnO(s)\)</td>
+<td class="org-left">+</td>
+<td class="org-right">\(Cu(s)\)</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">+2</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">+2</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0</td>
+</tr>
+</tbody>
+</table>
+<p>
+Here, the oxidation state of zinc goes from 0 to +2, meaning it has been oxidised. The oxidation state of copper goes from +2 to 0, meaning it has been reduced.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgaad80c1" class="outline-3">
+<h3 id="orgaad80c1"><span class="section-number-3">3.4.</span> Agents</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+If a substance is oxidised, any substance that is reduced is its oxidising agent. If a substance is reduced, any substance that is oxidised is its reducing agent.
+</p>
+</div>
+<div id="outline-container-org3f95645" class="outline-4">
+<h4 id="org3f95645"><span class="section-number-4">3.4.1.</span> Oxidising agent</h4>
+<div class="outline-text-4" id="text-3-4-1">
+<p>
+An oxidising agent is a substance that causes another substance to oxidise.
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="orgfe48319"></a>Identifiying an oxidising agent<br />
+<div class="outline-text-5" id="text-3-4-1-1">
+<p>
+Consider the following reaction:
+</p>
+<ul class="org-ul">
+<li>\(Cl_2(g) + H_2S(g) --> 2HCl(g) + S(s)\)</li>
+</ul>
+<p>
+Here, sulfur has lost hydrogen and has therefore been oxidised. In this case, the oxidising agent would be \(Cl_2\).
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org8f889bf" class="outline-4">
+<h4 id="org8f889bf"><span class="section-number-4">3.4.2.</span> Reducing agent</h4>
+<div class="outline-text-4" id="text-3-4-2">
+<p>
+A reducing agent is a substance that causes another substance to reduce.
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="org3b91d56"></a>Identifying a reducing agent<br />
+<div class="outline-text-5" id="text-3-4-2-1">
+<p>
+Consider the following reaction:
+</p>
+<ul class="org-ul">
+<li>\(Cl_2(g) + H_2S(g) --> 2HCl(g) + S(s)\)</li>
+</ul>
+<p>
+Here, chlorine has gained hydrogen and has therefore been reduced to hydrochloric acid. Therefore, the reducing agent would be \(H_2S(g)\).
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org3163f99" class="outline-4">
+<h4 id="org3163f99"><span class="section-number-4">3.4.3.</span> Identification/tests</h4>
+<div class="outline-text-4" id="text-3-4-3">
+</div>
+<ol class="org-ol">
+<li><a id="orgc18d706"></a>Identification of oxidising agents<br />
+<div class="outline-text-5" id="text-3-4-3-1">
+<p>
+\(KI(aq)\) or starch-iodide paper can be used to test the presence of an oxidising agent. \(\KI\)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Test</th>
+<th scope="col" class="org-left">Observation</th>
+<th scope="col" class="org-left">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Add \(KI(aq)\) to the unkown solution</td>
+<td class="org-left">A brown solution is formed</td>
+<td class="org-left">Iodide ions are oxidised to iodine through the oxidising agent in the solution (\(2I^-(aq) --> I_2(aq) + 2e^-\))</td>
+</tr>
+
+<tr>
+<td class="org-left">Dip a piece of starch-iodide paper in the unknown solution</td>
+<td class="org-left">The starch-iodide paper turns from white to blue</td>
+<td class="org-left">Iodide ions are oxidised to iodine through the oxidising agent, which subsequently reacts with the starch in the paper to form a blue colour</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li><a id="org3dc90e6"></a>Identification of reducing agents<br />
+<div class="outline-text-5" id="text-3-4-3-2">
+<p>
+Acidified \(KMnO_4\)(Mn(VII)) can be used to test the presence of a reducing agent.
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Test</th>
+<th scope="col" class="org-left">Observation</th>
+<th scope="col" class="org-left">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">If a gas is to be tested, place a piece of filter paper soaked in acidified \(KMnO_4\) at the mouth of the test tube</td>
+<td class="org-left">The filter paper turns from purple to colourless</td>
+<td class="org-left">The manganate(VII) ion (\(MnO_4\)) is reduced to maganese (\(Mn^{2+}\)). The oxidation state decreases from 7 to 2 (\(MnO_4^-(aq)(purple)+8H^+(aq)+5e^--->Mn^{2+}(aq)(colourless) + 4H_2O(l)\))</td>
+</tr>
+
+<tr>
+<td class="org-left">If a solution is to be tested, add acidified \(KMnO_4\) to the unknown solution</td>
+<td class="org-left">The colour of the \(KMnO_4\) solution changes from purple to colourless</td>
+<td class="org-left">The manganate(VII) ion (\(MnO_4\)) is reduced to maganese (\(Mn^{2+}\)). The oxidation state decreases from 7 to 2 (\(MnO_4^-(aq)(purple)+8H^+(aq)+5e^--->Mn^{2+}(aq)(colourless) + 4H_2O(l)\))</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org3fd12aa" class="outline-2">
+<h2 id="org3fd12aa"><span class="section-number-2">4.</span> Organic chemistry</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orgec0d7d5" class="outline-3">
+<h3 id="orgec0d7d5"><span class="section-number-3">4.1.</span> Compounds</h3>
+<div class="outline-text-3" id="text-4-1">
+</div>
+<div id="outline-container-org987e4d3" class="outline-4">
+<h4 id="org987e4d3"><span class="section-number-4">4.1.1.</span> Organic compounds</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<p>
+An organic compound is a compound that contains carbon. For e.g.,
+</p>
+<ul class="org-ul">
+<li>\(CH_4\)</li>
+<li>\(CH_3COOH\)</li>
+<li>\(C_2H_6\)</li>
+<li>\(C_6H_{12}O_6\)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org82adb13" class="outline-4">
+<h4 id="org82adb13"><span class="section-number-4">4.1.2.</span> Inorganic compounds</h4>
+<div class="outline-text-4" id="text-4-1-2">
+<p>
+An inorganic compound is a compound that does not contain carbon. For e.g.,
+</p>
+<ul class="org-ul">
+<li>\(NaCl\)</li>
+<li>\(SO_2\)</li>
+<li>\(NH_3\)</li>
+<li>\(H_2O\)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9889d45" class="outline-4">
+<h4 id="org9889d45"><span class="section-number-4">4.1.3.</span> Exceptions</h4>
+<div class="outline-text-4" id="text-4-1-3">
+<p>
+There are exceptions for both organic and inorganic compounds. Exceptions for organic compounds include:
+</p>
+<ul class="org-ul">
+<li>\(H\)</li>
+<li>\(N\)</li>
+<li>\(P\)</li>
+</ul>
+<p>
+Exceptions for inorganic compounds include:
+</p>
+<ul class="org-ul">
+<li>\(CaCO_3\)</li>
+<li>\(CaC_2\)</li>
+<li>\(Na_2CO_3\)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org6002ed1" class="outline-3">
+<h3 id="org6002ed1"><span class="section-number-3">4.2.</span> Functional groups</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+A functional group is an atom or a group of atoms that gives a molecule its characteristic properties. Examples for functional groups include:
+</p>
+<ul class="org-ul">
+<li>\(C\)</li>
+<li>\(OH\)</li>
+<li>\(COOH\)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb85d3bf" class="outline-3">
+<h3 id="orgb85d3bf"><span class="section-number-3">4.3.</span> Hydrocarbons</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+A hydrocarbon is an organic compound that includes only hydrogen and carbon atoms. Examples include:
+</p>
+<ul class="org-ul">
+<li>\(CH_4\)</li>
+<li>\(C_2H_6\)</li>
+</ul>
+</div>
+<div id="outline-container-org0bbe186" class="outline-4">
+<h4 id="org0bbe186"><span class="section-number-4">4.3.1.</span> Classification of hydrocarbons</h4>
+<div class="outline-text-4" id="text-4-3-1">
+<p>
+There are two categories of hydrocarbons:
+</p>
+<ol class="org-ol">
+<li>Saturated hydrocarbons
+<ul class="org-ul">
+<li>Belongs to the &rsquo;Alkane&rsquo; homologous series  (<a href="#org5036033">4.4.1</a>)</li>
+</ul></li>
+<li>Unsaturated hydrocarbons
+<ul class="org-ul">
+<li>Belongs to the &rsquo;Alkene&rsquo; homologous series (<a href="#org471e695">4.4.2</a>)</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org66ed379" class="outline-4">
+<h4 id="org66ed379"><span class="section-number-4">4.3.2.</span> Differences between saturated and unsaturated hydrocarbons</h4>
+<div class="outline-text-4" id="text-4-3-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Homologous Series</th>
+<th scope="col" class="org-left">General Formula</th>
+<th scope="col" class="org-left">Bond</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Saturated hydrocarbon</td>
+<td class="org-left">Alkane</td>
+<td class="org-left">\(C_nH_{2n+2}\)</td>
+<td class="org-left">C - C</td>
+</tr>
+
+<tr>
+<td class="org-left">Unsaturated hydrocarbon</td>
+<td class="org-left">Alkene</td>
+<td class="org-left">\(C_nH_{2n}\)</td>
+<td class="org-left">C = C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-org8ffec72" class="outline-3">
+<h3 id="org8ffec72"><span class="section-number-3">4.4.</span> Homologous series</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+The homologous series is a family of organic compounds with the same functional group and similar chemical properties. Organic compounds in the same homologous series have the following characteristics:
+</p>
+<ul class="org-ul">
+<li>They have the same functional group</li>
+<li>They have similar chemical properties</li>
+<li>There is a gradual change in their physical properties the further down the series, due to a change in the size of the atoms.</li>
+</ul>
+</div>
+<div id="outline-container-org5036033" class="outline-4">
+<h4 id="org5036033"><span class="section-number-4">4.4.1.</span> Alkane homologous series</h4>
+<div class="outline-text-4" id="text-4-4-1">
+<p>
+<b>General formula</b>: \(C_nH_{2n+2}\)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Molecular Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Methane</td>
+<td class="org-left">\(CH_4\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Ethane</td>
+<td class="org-left">\(C_2H_6\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Propane</td>
+<td class="org-left">\(C_3H_8\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Butane</td>
+<td class="org-left">\(C_4H_{10}\)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol class="org-ol">
+<li><a id="org2f44d82"></a>Molecular structure of Alkanes<br />
+<div class="outline-text-5" id="text-4-4-1-1">
+<p>
+Alkanes are saturated hydrocarbons, meaning there are only single carbon-carbon bonds (C-C).
+</p>
+</div>
+</li>
+<li><a id="org874590a"></a>Physical properties of Alkanes<br />
+<div class="outline-text-5" id="text-4-4-1-2">
+<ol class="org-ol">
+<li>Melting/boiling point
+<ul class="org-ul">
+<li>Generally low melting and boiling points.</li>
+<li>The melting point increases down the group due to an increase in the number of bonds between the molecules (more heat is needed to overcome more bonds).</li>
+</ul></li>
+<li>Flammability
+<ul class="org-ul">
+<li>The flammability of Alkanes decreases down the group due to an increase in the size of molecules. Larger molecules are harder to burn and therefore ouput less flame.</li>
+</ul></li>
+<li>Viscosity
+<ul class="org-ul">
+<li>The viscosity (thickness/difficulty of flow) of Alkanes increases down the group due to an increase in the size of molecules. The state of Alkanes gradually changes from gaseous (first 4) to liquid to solid.</li>
+</ul></li>
+</ol>
+</div>
+</li>
+<li><a id="orgedfb557"></a>Chemical properties of Alkanes<br />
+<div class="outline-text-5" id="text-4-4-1-3">
+<ol class="org-ol">
+<li>Reactivity
+<ul class="org-ul">
+<li>Alkanes are unreactive hydrocarbons.</li>
+<li>Are insoluble in water.</li>
+<li>Are soluble in organic solvents.</li>
+</ul></li>
+<li>Combustion
+<ul class="org-ul">
+<li>This refers to the burning of an Alkane in the presence/with a supply of oxygen.
+<ol class="org-ol">
+<li>Complete combustion
+<ul class="org-ul">
+<li>\(CH_4 + 2O_2\) &#x2013;&gt; \(CO_2 + H_2O + heat\)
+<ul class="org-ul">
+<li>Occurs with a sufficient supply of oxygen.</li>
+<li>Carbon dioxide is produced.</li>
+</ul></li>
+</ul></li>
+<li>Incomplete combustion
+<ul class="org-ul">
+<li>\(CH_4 + O_2\) &#x2013;&gt; \(CO + H_2O + heat\)
+<ul class="org-ul">
+<li>Occurs with an insufficient supply of oxygen.</li>
+<li>Carbonx monoxide is produced (poisonous).</li>
+</ul></li>
+</ul></li>
+</ol></li>
+</ul></li>
+<li>Substitution reactions
+<ul class="org-ul">
+<li>This reaction (chlorination of methane) takes place in UV radiation. For e.g., Methane + Chloride (4 steps):
+<ol class="org-ol">
+<li>\(CH_4 + Cl_2\)  \(\frac{UV}{-->}\)  \(HCl + CH_3Cl\) (monochloro methane)</li>
+<li>\(CH_3Cl + Cl_2\)  \(\frac{UV}{-->}\)  \(HCl + CH_2Cl_2\) (dichloro methane)</li>
+<li>\(CH_2Cl_2 + Cl_2\)  \(\frac{UV}{-->}\)  \(HCl + CHCl_3\) (trichloro methane)</li>
+<li>\(CHCl_3 + Cl_2\)  \(\frac{UV}{-->}\)  \(HCl + CCl_4\) (tetrachloro methane)</li>
+</ol></li>
+</ul></li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org471e695" class="outline-4">
+<h4 id="org471e695"><span class="section-number-4">4.4.2.</span> Alkene homologous series</h4>
+<div class="outline-text-4" id="text-4-4-2">
+<p>
+<b>General formula</b>: \(C_nH_{2n}\)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Molecular Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Methene</td>
+<td class="org-left">Does not exist</td>
+</tr>
+
+<tr>
+<td class="org-left">Ethene</td>
+<td class="org-left">\(C_2H_4\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Propene</td>
+<td class="org-left">\(C_3H_6\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Butene</td>
+<td class="org-left">\(C_4H_8\)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol class="org-ol">
+<li><a id="org73e3bf5"></a>Molecular structure of Alkenes<br />
+<div class="outline-text-5" id="text-4-4-2-1">
+<p>
+Alkenes are unsaturated hydrocarbons, meaning there is one double carbon-carbon bond (C=C).
+</p>
+</div>
+</li>
+<li><a id="orge961c8a"></a>Addition reactions of Alkenes<br />
+<div class="outline-text-5" id="text-4-4-2-2">
+<p>
+Alkenes are reactive hydrocarbons.
+</p>
+<ol class="org-ol">
+<li>Hydrogenation
+<ul class="org-ul">
+<li><p>
+The addition of hydrogen to an unsatured hydrocarbon is known as hydrogenation. For e.g., Ethene + Hydrogen:
+</p>
+<ul class="org-ul">
+<li>\(Ethene + H_2\) &#x2013;&gt; \(Ethane\) (\(C_2H_4 + H_2\) &#x2013;&gt; \(C_2H_6\)).</li>
+</ul>
+<p>
+Hydrogenation turns an Alkene into an Alkane.
+</p></li>
+<li>Prerequisites for hydrogenation
+<ol class="org-ol">
+<li>Catalyst (nickel)</li>
+<li>Temperature (200°C)</li>
+</ol></li>
+</ul></li>
+<li>Bromination
+<ul class="org-ul">
+<li>The passing of bromine water (liquid bromine)(reddish-brown) through hydrocarbons for the purpose of identification. For e.g., Bromine water + Ethene:
+<ul class="org-ul">
+<li>\(C_2H_4 + Br_2\) &#x2013;&gt; \(C_2H_4Br\) (Dibromo Ethane)
+<ul class="org-ul">
+<li>The colour transitions from reddish-brown &#x2013;&gt; colourless.</li>
+</ul></li>
+</ul></li>
+<li>When a hydrocarbon becomes colourless after reacting with bromine water, it means it is unsaturated.</li>
+</ul></li>
+<li>Hydration
+<ul class="org-ul">
+<li>Alkenes can react with steam to produce an alcohol. For e.g., Ethene + Water: \(C_2H_4 + H_2O (g)\) &#x2013;&gt; \(C_2H_4OH\) (Ethanol)</li>
+<li>Prerequisites for hydration
+<ol class="org-ol">
+<li>Catalyst (Phosphoric Acid (\(H_3PO_4\)))</li>
+<li>Temperature (300°C)</li>
+<li>Pressure (60°C)</li>
+</ol></li>
+</ul></li>
+<li>Polymerization
+<ul class="org-ul">
+<li>Alkenes make long-chain molecules at high temperature + presure. For e.g., polymerization of ethene:
+<ul class="org-ul">
+<li>Ethene \(\frac{high\ temperature + high\ pressure}{-->} Polythene/Poly-ethene\)</li>
+<li>\(n(CH=CH)\) \(\frac{polymerization}{-->}\) \((-CH_2-CH_2-)_n\) (monomer &#x2013;&gt; polymer)</li>
+</ul></li>
+<li>A monomer is a small unit of a polymer that is repeated multiple times.</li>
+<li>A polymer is a long-chain molecule.</li>
+</ul></li>
+</ol>
+</div>
+</li>
+<li><a id="org694bb9b"></a>Preparation of Alkenes via cracking of Alkanes<br />
+<div class="outline-text-5" id="text-4-4-2-3">
+<p>
+Alkanes are cracked in order to prepare an Alkene + other products:
+</p>
+<ul class="org-ul">
+<li>\(Long-chain\ Alkane\) \(\frac{cracking}{-->}\) \([mixture\ of\ short-chain\ Alkenes] + [mixture\ of\ short-chain\ Alkanes\ OR\ Hydrogen]\)</li>
+</ul>
+<p>
+For e.g.,
+</p>
+<ul class="org-ul">
+<li>\(C_{18}H_{38}\) \(\frac{cracking}{-->}\) \(C_{10}H_{20} + C_8H_{16} + H_2\)</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org87b2e15" class="outline-4">
+<h4 id="org87b2e15"><span class="section-number-4">4.4.3.</span> Alkyl homologous series</h4>
+<div class="outline-text-4" id="text-4-4-3">
+<p>
+<b>General formula</b>: \(C_nH_{2n+1}\)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Molecular Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Methyl</td>
+<td class="org-left">\(CH_3\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Ethyl</td>
+<td class="org-left">\(C_2H_5\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Propyl</td>
+<td class="org-left">\(C_3H_7\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Butyl</td>
+<td class="org-left">\(C_4H_9\)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+</tr>
+</tbody>
+</table>
+<p>
+Elements of the Alkyl homologous series can bond with halides:
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Molecular Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Methyl Chloride</td>
+<td class="org-left">\(CH_3Cl\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Ethyl Chloride</td>
+<td class="org-left">\(C_2H_5Cl\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Propyl Bromide</td>
+<td class="org-left">\(C_3H_7Br\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Butyl Fluoride</td>
+<td class="org-left">\(C_4H_9F\)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org01a7fa1" class="outline-4">
+<h4 id="org01a7fa1"><span class="section-number-4">4.4.4.</span> Alcohol homologous series (Alkanol)</h4>
+<div class="outline-text-4" id="text-4-4-4">
+<p>
+The Alcohol homologous series consists of elements of the Alkyl homologous series bonded with hydroxide.
+<b>General formula</b>: \(C_nH_{2n+1}OH\)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Molecular Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Methyl Alcohol -&gt; Methanol</td>
+<td class="org-left">\(CH_3OH\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Ethyl Alcohol -&gt; Ethanol</td>
+<td class="org-left">\(C_2H_5OH\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Propyl Alcohol -&gt; Propanol</td>
+<td class="org-left">\(C_3H_7OH\)</td>
+</tr>
+
+<tr>
+<td class="org-left">Butane Alcohol -&gt; Butanol</td>
+<td class="org-left">\(C_4H_9OH\)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol class="org-ol">
+<li><a id="org322a395"></a>Production of Ethanol<br />
+<ol class="org-ol">
+<li><a id="org34bc51b"></a>Hydration<br />
+<div class="outline-text-6" id="text-4-4-4-1-1">
+<p>
+Refer to <a href="#orge961c8a">4.4.2.2</a>
+</p>
+</div>
+</li>
+<li><a id="org6f2102d"></a>Fermentation<br />
+<div class="outline-text-6" id="text-4-4-4-1-2">
+<p>
+Fermentation is a process in which micro-organisms (i.e. yeast) act on carbohydrates (i.e. glucose) in the <b>absence of oxygen</b> to produce ethanol and carbon dioxide.
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="orgcf60326"></a>Process of fermentation<br />
+<div class="outline-text-7" id="text-4-4-4-1-2-1">
+<ol class="org-ol">
+<li>A solution of glucose is mixed with yeast and kept at 37°C.</li>
+<li>During fermentation, carbon dioxide is produced. Hence, frothing can be observed. Limewater can be used to test the presence of carbon dioxide.</li>
+<li>A dilute solution of ethanol is produced, at about 15% concentration.
+<ul class="org-ul">
+<li>This happens because an alcohol content over ~15% kills the yeast and stops the process of fermentation.</li>
+<li>The diluted solution can be purified to obtain a higher ethanol concentration via fractional distillation.</li>
+</ul></li>
+</ol>
+</div>
+</li>
+<li><a id="org01eab38"></a>Precautions<br />
+<div class="outline-text-7" id="text-4-4-4-1-2-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Precaution</th>
+<th scope="col" class="org-left">Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Temperature should be kept at ~37°C</td>
+<td class="org-left">The enzymes in the yeast work best at this temperature. Any higher then the enzymes will be denatured and fermentation shall stop</td>
+</tr>
+
+<tr>
+<td class="org-left">The apparatus should be kept airtight; no oxygen should interfere during fermentation</td>
+<td class="org-left">Alcohol + oxygen &#x2013;&gt; Carboxylic acid + water</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a id="org6b12dff"></a>Uses of ethanol<br />
+<div class="outline-text-5" id="text-4-4-4-2">
+<ol class="org-ol">
+<li>As a solvent</li>
+<li>As a fuel</li>
+<li>In cooking (methylated spirit)</li>
+<li>In foods/drinks</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org471984b" class="outline-4">
+<h4 id="org471984b"><span class="section-number-4">4.4.5.</span> Carboxylic acid homologous series (Alkoic)</h4>
+<div class="outline-text-4" id="text-4-4-5">
+<p>
+The carboxylic homologous series consists of elements of the alkyl homologous series bonded with \(COOH\). They are weak acids, and partially ionize during reactions.
+<b>General formula</b>: \(C_nH_{2n}COOH\)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Molecular formula</th>
+<th scope="col" class="org-left">Structural formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Methanoic Acid</td>
+<td class="org-left">\(HCOOH\)</td>
+<td class="org-left"><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig9.png" alt="fig9.png" /></td>
+</tr>
+
+<tr>
+<td class="org-left">Ethanoic Acid</td>
+<td class="org-left">\(CH_3COOH\)</td>
+<td class="org-left"><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig10.png" alt="fig10.png" /></td>
+</tr>
+
+<tr>
+<td class="org-left">Propanoic Acid</td>
+<td class="org-left">\(C_2H_5COOH\)</td>
+<td class="org-left"><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig11.png" alt="fig11.png" /></td>
+</tr>
+
+<tr>
+<td class="org-left">Butanoic Acid</td>
+<td class="org-left">\(C_3H_7COOH\)</td>
+<td class="org-left"><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig12.png" alt="fig12.png" /></td>
+</tr>
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol class="org-ol">
+<li><a id="org09401d2"></a>Chemical reactions<br />
+<div class="outline-text-5" id="text-4-4-5-1">
+<ol class="org-ol">
+<li>With water
+<ul class="org-ul">
+<li>Carboxylic acids dissolve in water &amp; partially ionize to produce 1 hydrogen ion (\(H^+\)). For e.g.,
+<ul class="org-ul">
+<li>\(HCOOH\) \(\frac{H_2O}{-->}\) \(H^+ + HCOO^-\) (methanoate)</li>
+<li>\(CH_3COOH\) \(\frac{H_2O}{-->}\) \(H^+ CH_3COO\) (ethanoate)</li>
+<li>\(C_2H_5COOH\) \(\frac{H_2O}{-->}\) \(H^+ C_2H_5COO\) (propanoate)</li>
+</ul></li>
+</ul></li>
+<li>With bases
+<ul class="org-ul">
+<li>Acid + base &#x2013;&gt; Salt + water
+<ul class="org-ul">
+<li>\(CH_3COOH + Ca(OH)_2\) &#x2013;&gt; \(Ca(CH_3COO)_2\ (calcium\ ethanoate)\ + H_2O\)</li>
+<li>\(C_2H_5COOH + NaOH\) &#x2013;&gt; \(NaC_2H_5COO\ (sodium\ propanoate)\ + H_2O\)</li>
+</ul></li>
+</ul></li>
+<li>With carbonates
+<ul class="org-ul">
+<li>Acid + carbonate &#x2013;&gt; Salt + water + carbon dioxide
+<ul class="org-ul">
+<li>\(HCOOH + CaCO_3\) &#x2013;&gt; \(Ca(HCOO)_2 + H_2O + CO_2\)</li>
+<li>\(CH_3COOH + K_2CO_3\) &#x2013;&gt; \(KCH_3COO + H_2O + CO_2\)</li>
+<li>\(C_2H_5COOH + Na_2CO_3\) &#x2013;&gt; \(Na_2C_2H_5 + H_2O + CO_2\)</li>
+</ul></li>
+</ul></li>
+<li>With metals
+<ul class="org-ul">
+<li>Acid + metal &#x2013;&gt; Salt + hydrogen gas
+<ul class="org-ul">
+<li>\(Zn + CH_3COOH\) &#x2013;&gt; \(Zn(CH_3COO)_2 + H_2\)</li>
+<li>\(Mg + HCOOH\) &#x2013;&gt; \(MgHCOO + H_2\)</li>
+</ul></li>
+</ul></li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org5b2986c" class="outline-4">
+<h4 id="org5b2986c"><span class="section-number-4">4.4.6.</span> Structured formulas</h4>
+<div class="outline-text-4" id="text-4-4-6">
+<p>
+Structured formulas represent the structure of a compound.
+</p>
+<ul class="org-ul">
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig1.png" alt="fig1.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig2.png" alt="fig2.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig3.png" alt="fig3.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig4.png" alt="fig4.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig5.png" alt="fig5.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig6.png" alt="fig6.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig7.png" alt="fig7.png" /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf0d8665" class="outline-4">
+<h4 id="orgf0d8665"><span class="section-number-4">4.4.7.</span> Esters</h4>
+<div class="outline-text-4" id="text-4-4-7">
+<p>
+Esters are formed when a mixture of alcohol and carboxylic acid is heated. The products formed are an alkyl alkanoate along with water.
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="org92ab133"></a>Naming<br />
+<div class="outline-text-5" id="text-4-4-7-1">
+<p>
+There are two parts to the name of an ester:
+</p>
+<ol class="org-ol">
+<li>Alcohol</li>
+<li>Carboxylic Acid</li>
+</ol>
+<p>
+For e.g.,
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-left">Alcohol</th>
+<th scope="col" class="org-left">Carboxylic Acid</th>
+<th scope="col" class="org-left">Products</th>
+<th scope="col" class="org-left">Chemical Equation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1.</td>
+<td class="org-left">Ethanol</td>
+<td class="org-left">Ethanoic Acid</td>
+<td class="org-left">Ethyl Ethanoate and Water</td>
+<td class="org-left">\(C_2H_5OH + CH_3COOH --> C_2H_5CH_3COO + H_2O\)</td>
+</tr>
+
+<tr>
+<td class="org-right">2.</td>
+<td class="org-left">Methanol</td>
+<td class="org-left">Methanoic Acid</td>
+<td class="org-left">Methyl Methanoate and Water</td>
+<td class="org-left">\(CH_3OH + HCOOH --> CH_3COO + H_2O\)</td>
+</tr>
+
+<tr>
+<td class="org-right">3.</td>
+<td class="org-left">Ethanol</td>
+<td class="org-left">Methanoic Acid</td>
+<td class="org-left">Ethyl Methanoate and Water</td>
+<td class="org-left">\(C_2H_5OH + HCOOH --> C_2H_5COO + H_2O\)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li><a id="orge543d75"></a>Structure<br />
+<div class="outline-text-5" id="text-4-4-7-2">
+<ol class="org-ol">
+<li>Methyl Ethanoate (Ethanoic Acid + Methanol)</li>
+</ol>
+
+<div id="org3676fbb" class="figure">
+<p><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig13.png" alt="fig13.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li>Ethyl Methanoate (Methanoic Acid + Ethanol)</li>
+</ol>
+
+<div id="org454a28f" class="figure">
+<p><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig14.png" alt="fig14.png" />
+</p>
+</div>
+<ol class="org-ol">
+<li>Ethyl Ethanoate (Ethanoic Acid + Ethanol)</li>
+</ol>
+
+<div id="orga1ec3e5" class="figure">
+<p><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig15.png" alt="fig15.png" />
+</p>
+</div>
+</div>
+<ol class="org-ol">
+<li><a id="org4491975"></a>Ester linkage<br />
+<div class="outline-text-6" id="text-4-4-7-2-1">
+<p>
+An ester linkage is \(O=C-O-H\). The carbon bonds in an ester linkage are incomplete (3 of 4).
+</p>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org01d9e9b"></a>Uses of esters<br />
+<div class="outline-text-5" id="text-4-4-7-3">
+<ol class="org-ol">
+<li>Artificial flavouring (courtesy of its fragrance)</li>
+<li>Solvents (in cosmetics, perfumes, glue, etc)</li>
+<li>Production of soaps (when fats are boiled with sodium hydroxide)</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgac31714" class="outline-3">
+<h3 id="orgac31714"><span class="section-number-3">4.5.</span> Isomers</h3>
+<div class="outline-text-3" id="text-4-5">
+<p>
+Compounds which have the same molecular formula but different structural formulas are known as isomers.
+<img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig8.png" alt="fig8.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-org0a476df" class="outline-3">
+<h3 id="org0a476df"><span class="section-number-3">4.6.</span> Fractional distillation of petroleum</h3>
+<div class="outline-text-3" id="text-4-6">
+<p>
+Petroleum is a naturally-occuring liquid mixture of hydrocarbons, that is dark-brown in colour, has a high viscosity and is foul-smelling. In its unrefined form, petroleum is known as crude oil. In order for it to be used, it has to be refined first. This refining is done via fractional distillation.
+</p>
+</div>
+<div id="outline-container-orgfded6cc" class="outline-4">
+<h4 id="orgfded6cc"><span class="section-number-4">4.6.1.</span> Process</h4>
+<div class="outline-text-4" id="text-4-6-1">
+<ol class="org-ol">
+<li>In its raw form, petroleum is heated and vapourised.</li>
+<li>The vapours are passed into the fractionating column.</li>
+<li>The vapours rise up the fractionating column. The fractionating column is made up of a series of shelfs of varying temperatures. The lower shelves have a high temperature, the higher shelves have a lower temperature. When the vapours meet a shelf that is lower in temperature than its boiling point, it condenses and is collected.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgb8ed26a" class="outline-4">
+<h4 id="orgb8ed26a"><span class="section-number-4">4.6.2.</span> Fractions</h4>
+<div class="outline-text-4" id="text-4-6-2">
+<p>
+A total of 7 fractions are collected from this process:
+</p>
+<ol class="org-ol">
+<li>Petroleum gas</li>
+<li>Gasoline</li>
+<li>Naptha</li>
+<li>Kerosene</li>
+<li>Diesel</li>
+<li>Lubricating oil</li>
+<li>Bitumen</li>
+</ol>
+</div>
+<ol class="org-ol">
+<li><a id="org24061f7"></a>Uses<br />
+<div class="outline-text-5" id="text-4-6-2-1">
+<ol class="org-ol">
+<li>Petroleum gas
+<ul class="org-ul">
+<li>Used as fuel for cooking/heating.</li>
+</ul></li>
+<li>Gasoline
+<ul class="org-ul">
+<li>Used as a fuel for vehicles.</li>
+</ul></li>
+<li>Naptha
+<ul class="org-ul">
+<li>Used in the production of petrochemicals, i.e. plastics and detergents.</li>
+</ul></li>
+<li>Kerosene
+<ul class="org-ul">
+<li>Used as a fuel for aircrafts.</li>
+</ul></li>
+<li>Diesel
+<ul class="org-ul">
+<li>Used as a fuel for diesel engines in buses, lorries and trains.</li>
+</ul></li>
+<li>Lubricating oil
+<ul class="org-ul">
+<li>Used to lubricate machines/produce waxes + polishes.</li>
+</ul></li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orge615a94" class="outline-3">
+<h3 id="orge615a94"><span class="section-number-3">4.7.</span> Polymers/Polymerization</h3>
+<div class="outline-text-3" id="text-4-7">
+<p>
+A polymer is a long-chain molecule, made up of repeat units known as monomers.
+</p>
+</div>
+<div id="outline-container-org8e15295" class="outline-4">
+<h4 id="org8e15295"><span class="section-number-4">4.7.1.</span> Types of polymerization</h4>
+<div class="outline-text-4" id="text-4-7-1">
+<ol class="org-ol">
+<li>Addition polymerization
+<ul class="org-ul">
+<li>E.g.,
+<ul class="org-ul">
+<li>polythene</li>
+<li>PVC (poly-vinyl chloride)</li>
+<li>teflon</li>
+<li>polystyrene</li>
+</ul></li>
+</ul></li>
+<li>Condensation polymerization
+<ul class="org-ul">
+<li>E.g.,
+<ul class="org-ul">
+<li>nylon (polyamide)</li>
+<li>terylene (polyester)</li>
+</ul></li>
+</ul></li>
+</ol>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Addition polymerization</th>
+<th scope="col" class="org-left">Condensation polymerization</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Same monomer</td>
+<td class="org-left">Different monomer</td>
+</tr>
+
+<tr>
+<td class="org-left">No secondary substance is formed</td>
+<td class="org-left">Water is formed</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org4e62c13" class="outline-4">
+<h4 id="org4e62c13"><span class="section-number-4">4.7.2.</span> Addition polymerization</h4>
+<div class="outline-text-4" id="text-4-7-2">
+</div>
+<ol class="org-ol">
+<li><a id="orgcc97689"></a>Structures<br />
+<div class="outline-text-5" id="text-4-7-2-1">
+<ul class="org-ul">
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig16.png" alt="fig16.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig17.png" alt="fig17.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig18.png" alt="fig18.png" /></li>
+<li><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig19.png" alt="fig19.png" /></li>
+</ul>
+</div>
+</li>
+<li><a id="orgd6a9554"></a>Uses<br />
+<ol class="org-ol">
+<li><a id="orgc520cc7"></a>Polythene<br />
+<div class="outline-text-6" id="text-4-7-2-2-1">
+<ul class="org-ul">
+<li>Plastic products, e.g.,
+<ul class="org-ul">
+<li>Clingfilm</li>
+<li>Plastic bags</li>
+<li>Buckets</li>
+<li>Plastic toys</li>
+</ul></li>
+</ul>
+</div>
+</li>
+<li><a id="org6e9f964"></a>PVC<br />
+<div class="outline-text-6" id="text-4-7-2-2-2">
+<ul class="org-ul">
+<li>Pipes</li>
+<li>Raincoats</li>
+<li>Thin gloves</li>
+<li>Flooring mats</li>
+</ul>
+</div>
+</li>
+<li><a id="org7b4e1ae"></a>Teflon<br />
+<div class="outline-text-6" id="text-4-7-2-2-3">
+<ul class="org-ul">
+<li>Non-stick frying pans</li>
+</ul>
+</div>
+</li>
+<li><a id="org12d9373"></a>Polystyrene<br />
+<div class="outline-text-6" id="text-4-7-2-2-4">
+<ul class="org-ul">
+<li>Disposable containers</li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgd226e11" class="outline-4">
+<h4 id="orgd226e11"><span class="section-number-4">4.7.3.</span> Condensation polymerization</h4>
+<div class="outline-text-4" id="text-4-7-3">
+</div>
+<ol class="org-ol">
+<li><a id="org2f17f8c"></a>Linkages<br />
+<div class="outline-text-5" id="text-4-7-3-1">
+<p>
+There are two linkages with condensed polymers:
+</p>
+<ul class="org-ul">
+<li>Ester linkages (\(O=C-O-\) (carbon bonds are 3 of 4))</li>
+<li>Amide linkages (\(O=C-N-H\) (carbon bonds are 3 of 4))</li>
+</ul>
+</div>
+</li>
+<li><a id="orgf0dd79c"></a>Ester linkage<br />
+<div class="outline-text-5" id="text-4-7-3-2">
+<p>
+Formed from Di-carboxylic acid + Di-alcohol (diol) and yields a polyester and water.
+<img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig20.png" alt="fig20.png" />
+</p>
+</div>
+</li>
+<li><a id="org7a6a469"></a>Amide linkage<br />
+<div class="outline-text-5" id="text-4-7-3-3">
+<p>
+Formed from Di-carboxylic acid + Di-amide and yields a polyamide and water.
+<img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig21.png" alt="fig21.png" />
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org5a2fac8" class="outline-4">
+<h4 id="org5a2fac8"><span class="section-number-4">4.7.4.</span> Natural polymers</h4>
+<div class="outline-text-4" id="text-4-7-4">
+</div>
+<ol class="org-ol">
+<li><a id="org8e5a69a"></a>Protein<br />
+<div class="outline-text-5" id="text-4-7-4-1">
+<ul class="org-ul">
+<li>Made of amino acids (being the monomers of protein)</li>
+<li>Can be separated via chromatography (with ninhydrin as locating agent)</li>
+</ul>
+</div>
+<ol class="org-ol">
+<li><a id="orgb9c67c0"></a>Structure of amino acids<br />
+<div class="outline-text-6" id="text-4-7-4-1-1">
+
+<div id="org994ada5" class="figure">
+<p><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig23.png" alt="fig23.png" />
+</p>
+</div>
+<ul class="org-ul">
+<li>An amino acid is made up of a carbon atom bonded with:
+<ol class="org-ol">
+<li>The amine functional group, (\(NH_2\))</li>
+<li>Hydrogen</li>
+<li>An alkyl</li>
+<li>The carboxylic acid functional group, (\(COOH\))</li>
+</ol></li>
+</ul>
+</div>
+</li>
+<li><a id="orgeaeaf18"></a>Formation of proteins via condensation polymerization<br />
+<div class="outline-text-6" id="text-4-7-4-1-2">
+
+<div id="org383f010" class="figure">
+<p><img src="file:///home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig22.png" alt="fig22.png" />
+</p>
+</div>
+<ul class="org-ul">
+<li>The linkage is <b>not</b> the amide linkage. Though it is the same, in a protein, this linkage is called a <b>peptide link</b>.</li>
+<li>Because this is condensation polymerization, water is formed.</li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc999fc3" class="outline-2">
+<h2 id="orgc999fc3"><span class="section-number-2">5.</span> Moles</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-orgd441de8" class="outline-3">
+<h3 id="orgd441de8"><span class="section-number-3">5.1.</span> Formulas</h3>
+<div class="outline-text-3" id="text-5-1">
+</div>
+<div id="outline-container-orga297073" class="outline-4">
+<h4 id="orga297073"><span class="section-number-4">5.1.1.</span> Moles &lt;-&gt; Mass</h4>
+<div class="outline-text-4" id="text-5-1-1">
+<p>
+\(Mole = \frac{Mass(grams)}{Ar\ or\ Mr}\)
+</p>
+</div>
+</div>
+<div id="outline-container-org1883191" class="outline-4">
+<h4 id="org1883191"><span class="section-number-4">5.1.2.</span> Moles &lt;-&gt; Particles</h4>
+<div class="outline-text-4" id="text-5-1-2">
+<p>
+\(Mole = \frac{Total\ number\ of\ particles}{6*10^{23}\ (Avogadro's\ Number)}\)
+</p>
+</div>
+</div>
+<div id="outline-container-orga4a895f" class="outline-4">
+<h4 id="orga4a895f"><span class="section-number-4">5.1.3.</span> Moles &lt;-&gt; Volume of gas</h4>
+<div class="outline-text-4" id="text-5-1-3">
+<p>
+\(dm^3\) &#x2013;&gt; \(cm^3\) = \(*1000\)
+\(cm^3\) &#x2013;&gt; \(dm^3\) = \(/1000\)
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="orgdebaeda"></a>\(dm^3\)<br />
+<div class="outline-text-5" id="text-5-1-3-1">
+<p>
+\(Mole = \frac{Volume\ of\ gas\ (dm^3)}{24}\)
+</p>
+</div>
+</li>
+<li><a id="orgaee6b7a"></a>\(cm^3\)<br />
+<div class="outline-text-5" id="text-5-1-3-2">
+<p>
+\(Mole = \frac{Volume\ of\ gas\ (cm^3)}{24000}\)
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org139b736" class="outline-4">
+<h4 id="org139b736"><span class="section-number-4">5.1.4.</span> Moles &lt;-&gt; Concentration</h4>
+<div class="outline-text-4" id="text-5-1-4">
+</div>
+<ol class="org-ol">
+<li><a id="org7c058ae"></a>\(g/dm^3\)<br />
+<div class="outline-text-5" id="text-5-1-4-1">
+<p>
+\(Concentration = \frac{Mass\ of\ solute}{Volume\ of\ solution}\)
+</p>
+</div>
+</li>
+<li><a id="orga4622d1"></a>\(mol/dm^3\)<br />
+<div class="outline-text-5" id="text-5-1-4-2">
+<p>
+\(Concentration = \frac{Moles\ of\ solute}{Volume\ of\ solution}\)
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orga92b1e2" class="outline-2">
+<h2 id="orga92b1e2"><span class="section-number-2">6.</span> Electrolysis</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-orgef94eee" class="outline-3">
+<h3 id="orgef94eee"><span class="section-number-3">6.1.</span> Key points</h3>
+<div class="outline-text-3" id="text-6-1">
+<ol class="org-ol">
+<li>Ions</li>
+<li>Selective discharge</li>
+<li>Concentration of elecrolyte</li>
+<li>Nature of electrodes</li>
+<li>Reactions at anode and cathode</li>
+<li>Changes in electrolyte</li>
+<li>Identification</li>
+<li>Diagrams</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgda9343f" class="outline-3">
+<h3 id="orgda9343f"><span class="section-number-3">6.2.</span> Basic Terms</h3>
+<div class="outline-text-3" id="text-6-2">
+</div>
+<div id="outline-container-org98ae17d" class="outline-4">
+<h4 id="org98ae17d"><span class="section-number-4">6.2.1.</span> Ions</h4>
+<div class="outline-text-4" id="text-6-2-1">
+<p>
+A particle with a positive or negative charge.
+</p>
+<ul class="org-ul">
+<li>Anions are negatively charged ions.</li>
+<li>Cations are positively charged ions.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb0cadbb" class="outline-4">
+<h4 id="orgb0cadbb"><span class="section-number-4">6.2.2.</span> Electrodes</h4>
+<div class="outline-text-4" id="text-6-2-2">
+<p>
+A metal/non-metal (i.e. graphite) that conducts electricity.
+Anions(-) &#x2013;&gt; Anode(\+); Cations(+)&#x2013;&gt; Cathode(-)
+</p>
+<ul class="org-ul">
+<li>Anodes
+Positively charged electrode</li>
+<li>Cathode
+Negatively charged electrode</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb7de7d7" class="outline-4">
+<h4 id="orgb7de7d7"><span class="section-number-4">6.2.3.</span> Ionization</h4>
+<div class="outline-text-4" id="text-6-2-3">
+<p>
+The process by which a particle is positively or negatively charged.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc41e1a8" class="outline-4">
+<h4 id="orgc41e1a8"><span class="section-number-4">6.2.4.</span> Redox</h4>
+<div class="outline-text-4" id="text-6-2-4">
+<p>
+A chemical reaction involving the oxidation/reduction of elements.
+</p>
+<ul class="org-ul">
+<li>Oxidation
+A rise in the oxidation state</li>
+<li>Reduction
+A decrease in the oxidation state</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org985f116" class="outline-4">
+<h4 id="org985f116"><span class="section-number-4">6.2.5.</span> Electrochemical cells</h4>
+<div class="outline-text-4" id="text-6-2-5">
+<p>
+An electrolytic cell that handled electrical and chemical energy.
+</p>
+<ul class="org-ul">
+<li>Simple/Volatic cell
+Chemical energy &#x2013;&gt; electric energy</li>
+<li>Electrolytic cell
+Electric energy &#x2013;&gt; chemical energy</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc8f268d" class="outline-4">
+<h4 id="orgc8f268d"><span class="section-number-4">6.2.6.</span> Electrolytes</h4>
+<div class="outline-text-4" id="text-6-2-6">
+<p>
+An ionic compound (fused/aqueous) that conducts electricity, thereby forming anions and cations.
+</p>
+<ul class="org-ul">
+<li>Strong electrolytes
+Easily conducts electricity</li>
+<li>Weak electrolytes
+Conducts electricity, but not as easily</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org3da2f9b" class="outline-3">
+<h3 id="org3da2f9b"><span class="section-number-3">6.3.</span> Simple cells vs electrochemical cells</h3>
+<div class="outline-text-3" id="text-6-3">
+</div>
+<div id="outline-container-org392709f" class="outline-4">
+<h4 id="org392709f"><span class="section-number-4">6.3.1.</span> Simple cells</h4>
+<div class="outline-text-4" id="text-6-3-1">
+<ul class="org-ul">
+<li>Chemical energy &#x2013;&gt; electric energy</li>
+<li>Spontaneous reaction</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge875e97" class="outline-4">
+<h4 id="orge875e97"><span class="section-number-4">6.3.2.</span> Electrochemical cells</h4>
+<div class="outline-text-4" id="text-6-3-2">
+<ul class="org-ul">
+<li>Electric energy &#x2013;&gt; chemical energy</li>
+<li>Non-spontaneous reaction</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org311545d" class="outline-3">
+<h3 id="org311545d"><span class="section-number-3">6.4.</span> Selective discharge</h3>
+<div class="outline-text-3" id="text-6-4">
+</div>
+<div id="outline-container-org5d03ec1" class="outline-4">
+<h4 id="org5d03ec1"><span class="section-number-4">6.4.1.</span> Selective discharge of anions</h4>
+<div class="outline-text-4" id="text-6-4-1">
+<p>
+Ease of discharge increases down the group, i.e. #9 has preference over #1 when it comes to discharging at the anode.
+</p>
+<ol class="org-ol">
+<li>Potassium ion, \(K^+\)</li>
+<li>Sodium ion, \(Na^+\)</li>
+<li>Calcium ion, \(Ca^{2+}\)</li>
+<li>Magnesium ion, \(Mg^{2+}\)</li>
+<li>Zinc ion, \(Zn^{2+}\)</li>
+<li>Lead ion, \(Pb^{2+}\)</li>
+<li>Hydrogen ion, \(H^+\)</li>
+<li>Copper(II) ion, \(Cu^{2+}\)</li>
+<li>Silver ion, \(Ag^+\)</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orga435399" class="outline-4">
+<h4 id="orga435399"><span class="section-number-4">6.4.2.</span> Selective discharge of cations</h4>
+<div class="outline-text-4" id="text-6-4-2">
+<p>
+Ease of discharge increases down the group, i.e. #6 has preference over #1 when it comes to discharging at the cathode.
+</p>
+<ol class="org-ol">
+<li>Sulfate ion, \(SO_4^{2-}\)</li>
+<li>Nitrate ion, \(NO_3^-\)</li>
+<li>Chloride ion, \(Cl^-\)</li>
+<li>Bromide ion, \(Br^-\)</li>
+<li>Iodide ion, \(I^-\)</li>
+<li>Hydroxide ion, \(OH^-\)</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org04194b9" class="outline-3">
+<h3 id="org04194b9"><span class="section-number-3">6.5.</span> Concentration of electrolyte</h3>
+<div class="outline-text-3" id="text-6-5">
+<p>
+The concentration of the electrolyte should be kept in mind, since different levels of concentration yield different results.
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Ions</th>
+<th scope="col" class="org-left">Reaction at anode</th>
+<th scope="col" class="org-left">Reaction at cathode</th>
+<th scope="col" class="org-left">Change in electrolyte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Sodium Chloride (aq)</td>
+<td class="org-left">\(Na^+, Cl^-, H^+, OH^-\)</td>
+<td class="org-left">\(4OH^- --> 4e^- (aq) + H_2O (l) + O_2 (g)\)</td>
+<td class="org-left">\(2H^+ + 2e^- --> H_2 (g)\)</td>
+<td class="org-left">Concentration of \(NaCl\) increases</td>
+</tr>
+
+<tr>
+<td class="org-left">Sodium Chloride (concentrated)</td>
+<td class="org-left">\(Na^+, Cl^-, H^+, OH^-\)</td>
+<td class="org-left">\(2Cl^- --> 2e^- (aq) + Cl_2 (s)\)</td>
+<td class="org-left">\(2H^+ + 2e^- --> H_2 (g)\) (because sodium reacts with \(OH\) before it can be discharged)</td>
+<td class="org-left">\(NaOH\) forms, turning the electrolyte alkaline</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org73a5f54" class="outline-3">
+<h3 id="org73a5f54"><span class="section-number-3">6.6.</span> Nature of electrodes</h3>
+<div class="outline-text-3" id="text-6-6">
+<p>
+The material of the electrode can yield different results. A reactive electrode may partake in the process of electrolysis, while an unreactive electrode does not.
+</p>
+</div>
+</div>
+<div id="outline-container-orgce3845e" class="outline-3">
+<h3 id="orgce3845e"><span class="section-number-3">6.7.</span> Reaction at anode and cathode</h3>
+<div class="outline-text-3" id="text-6-7">
+</div>
+<div id="outline-container-orgbc42df4" class="outline-4">
+<h4 id="orgbc42df4"><span class="section-number-4">6.7.1.</span> Anode</h4>
+<div class="outline-text-4" id="text-6-7-1">
+<p>
+Oxidation occurs at the anode.
+</p>
+</div>
+</div>
+<div id="outline-container-orgda005e5" class="outline-4">
+<h4 id="orgda005e5"><span class="section-number-4">6.7.2.</span> Cathode</h4>
+<div class="outline-text-4" id="text-6-7-2">
+<p>
+Reduction occurs at the cathode.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org04c821b" class="outline-3">
+<h3 id="org04c821b"><span class="section-number-3">6.8.</span> Changes in electrolyte</h3>
+<div class="outline-text-3" id="text-6-8">
+<p>
+Possible changes to an electrolyte after electrolysis include:
+</p>
+<ol class="org-ol">
+<li>Concentration
+<ul class="org-ul">
+<li>The concentration of solute in the electrolyte may change after electrolysis has occurred. Take the electrolysis of Sodium Chloride (aq):
+<ol class="org-ol">
+<li>Ions
+<ul class="org-ul">
+<li>\(Na^+, Cl^-, H^+, OH^-\)</li>
+</ul></li>
+<li>Reaction at anode
+<ul class="org-ul">
+<li>\(4OH^- --> 4e^- (aq) + H_2O (l) + O_2 (g)\)</li>
+</ul></li>
+<li>Reaction at cathode
+<ul class="org-ul">
+<li>\(2H^+ + 2e^- --> H_2 (g)\)</li>
+</ul></li>
+<li>Change in electrolyte
+<ul class="org-ul">
+<li>Since hydrogen and water are released in the form of gas, the elements left in the electrolyte are sodium chloride and an amount of water, less than before. This means the concentration of sodium chloride has increased after electrolysis.</li>
+</ul></li>
+</ol></li>
+</ul></li>
+<li>Colour
+<ul class="org-ul">
+<li>The colour of an electrolyte may change after electrolysis. In the case of copper sulfate, for example, the electrolyte turns from blue to colourless.</li>
+</ul></li>
+<li>Acidity
+<ul class="org-ul">
+<li>If a compound with hydrogen forms, i.e. \(HCl\) or \(H_2SO_4\), the electrolyte has turned acidic.</li>
+</ul></li>
+<li>Alkalinity
+<ul class="org-ul">
+<li>If a compound with hydroxide forms, i.e. \(NaOH\) or \(KOH\), the electrolyte has turned alkaline.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org6ab5757" class="outline-3">
+<h3 id="org6ab5757"><span class="section-number-3">6.9.</span> Identification of products</h3>
+<div class="outline-text-3" id="text-6-9">
+<p>
+Refer to <a href="#org0fcdae7">2</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org22ff1bd" class="outline-2">
+<h2 id="org22ff1bd"><span class="section-number-2">7.</span> Metals</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-org4a182cb" class="outline-3">
+<h3 id="org4a182cb"><span class="section-number-3">7.1.</span> Extraction of metals</h3>
+<div class="outline-text-3" id="text-7-1">
+</div>
+<ol class="org-ol">
+<li><a id="org848bd8f"></a>Ores<br />
+<div class="outline-text-5" id="text-7-1-0-1">
+<p>
+An ore is a mineral that contains a sufficient quantity of metal(s) that can be easily extracted.
+</p>
+</div>
+</li>
+</ol>
+<div id="outline-container-org59a5ec3" class="outline-4">
+<h4 id="org59a5ec3"><span class="section-number-4">7.1.1.</span> Extraction</h4>
+<div class="outline-text-4" id="text-7-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="org8043215"></a>Reactive metals<br />
+<div class="outline-text-6" id="text-7-1-1-0-1">
+<p>
+Reactive metals are separated via electrolysis. For e.g.,
+</p>
+<ul class="org-ul">
+<li>\(Al_2O_3 --> Al^{3_}+O^{2-}\)</li>
+</ul>
+</div>
+</li>
+<li><a id="orgd05e9af"></a>Unreactive metals<br />
+<div class="outline-text-6" id="text-7-1-1-0-2">
+<p>
+Unreactive metals are separated via reduction. For e.g.,
+</p>
+<ul class="org-ul">
+<li>\(PbO + C \frac{heat}{-->} Pb + CO\)</li>
+<li>\(ZnO + C \frac{heat}{-->} Zn + CO\)</li>
+</ul>
+</div>
+</li>
+</ol>
+<li><a id="org7550afe"></a>Extraction of iron<br />
+<ol class="org-ol">
+<li><a id="orge921aa0"></a>Outline<br />
+<div class="outline-text-6" id="text-7-1-1-1-1">
+<ol class="org-ol">
+<li>Ore</li>
+<li>Diagram labeling (blast furnace)</li>
+<li>Rise/fall in temperature</li>
+<li>Type of reaction (exothermic/endothermic)</li>
+<li>Removal of impurities (slag formation)</li>
+<li>Extraction of iron</li>
+</ol>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org92f88c5" class="outline-2">
+<h2 id="org92f88c5"><span class="section-number-2">8.</span> Air, water and gases</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-org166f320" class="outline-3">
+<h3 id="org166f320"><span class="section-number-3">8.1.</span> Treatment of water</h3>
+<div class="outline-text-3" id="text-8-1">
+</div>
+<div id="outline-container-org839380f" class="outline-4">
+<h4 id="org839380f"><span class="section-number-4">8.1.1.</span> Filtration</h4>
+<div class="outline-text-4" id="text-8-1-1">
+<p>
+Water is pumped out through filters to trap any large particles.
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="org1af0689"></a>Natural filtration<br />
+<div class="outline-text-5" id="text-8-1-1-1">
+<p>
+Water is passed through a bed of sand (which is insoluble in water), acting as a natural filter.
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgd6af60d" class="outline-4">
+<h4 id="orgd6af60d"><span class="section-number-4">8.1.2.</span> Coagulation</h4>
+<div class="outline-text-4" id="text-8-1-2">
+<p>
+A coagulant (i.e. \(Fe_2(SO_4)_3\) (Iron(III) sulfate)) is added to the water to make small, suspended particles stick together. Air is then blown through the water to make the coagulated particles rise to the top of the water in the form of froth/foam.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf3c261a" class="outline-4">
+<h4 id="orgf3c261a"><span class="section-number-4">8.1.3.</span> Purification</h4>
+<div class="outline-text-4" id="text-8-1-3">
+</div>
+<ol class="org-ol">
+<li><a id="org1822069"></a>Charcoal<br />
+<div class="outline-text-5" id="text-8-1-3-1">
+<p>
+Charcoal can be used to remove the taste and smell of water.
+</p>
+</div>
+</li>
+<li><a id="org3712219"></a>Chlorination<br />
+<div class="outline-text-5" id="text-8-1-3-2">
+<p>
+Chlorine is added to kill the bacteria and some other microbes in the water.
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org8d94fb4" class="outline-3">
+<h3 id="org8d94fb4"><span class="section-number-3">8.2.</span> Fertilizers</h3>
+<div class="outline-text-3" id="text-8-2">
+<p>
+Most fertilizers are made from:
+</p>
+<ol class="org-ol">
+<li>nitrogen (for the chlorophyll and protein of plants)</li>
+<li>phosphorous (for the roots of a plant and the ripening of fruits)</li>
+<li>potassium (for the protein of plants)</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgd1dd8f6" class="outline-3">
+<h3 id="orgd1dd8f6"><span class="section-number-3">8.3.</span> Ammonia</h3>
+<div class="outline-text-3" id="text-8-3">
+</div>
+<div id="outline-container-org205a0b1" class="outline-4">
+<h4 id="org205a0b1"><span class="section-number-4">8.3.1.</span> Industrial preparation of Ammonia (\(NH_3\))</h4>
+<div class="outline-text-4" id="text-8-3-1">
+</div>
+<ol class="org-ol">
+<li><a id="org4ba3ab1"></a>Raw materials<br />
+<div class="outline-text-5" id="text-8-3-1-1">
+<p>
+In order to make ammonia on an industrial scale, the following is needed:
+</p>
+<ol class="org-ol">
+<li>Hydrogen
+<ul class="org-ul">
+<li>Obtained via:
+<ol class="org-ol">
+<li>cracking of alkanes</li>
+<li>reacting methane with steam</li>
+</ol></li>
+</ul></li>
+<li>Nitrogen
+<ul class="org-ul">
+<li>Obtained via:
+<ol class="org-ol">
+<li>fractional distillation of air</li>
+</ol></li>
+</ul></li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgb81d622" class="outline-4">
+<h4 id="orgb81d622"><span class="section-number-4">8.3.2.</span> Haber&rsquo;s process</h4>
+<div class="outline-text-4" id="text-8-3-2">
+</div>
+<ol class="org-ol">
+<li><a id="orgdbd0dc0"></a>Chemical reaction<br />
+<div class="outline-text-5" id="text-8-3-2-1">
+<ul class="org-ul">
+<li>\(N_2+3H_2 \frac{Fe, 200atm, 450°C}{<-->}2NH_3\) (reversable)</li>
+</ul>
+</div>
+<ol class="org-ol">
+<li><a id="org54647a7"></a>Conditions<br />
+<div class="outline-text-6" id="text-8-3-2-1-1">
+<ol class="org-ol">
+<li>450°C (temperature)</li>
+<li>200atm (pressure)</li>
+<li>Iron (catalyst)</li>
+</ol>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Shayan Naqvi</p>
+<p class="date">Created: 2022-09-28 Wed 21:09</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+#+title: English
+#+author: Shayan Naqvi
+* Literary devices
+1. Anaphora
+   The repetition of a word or phrase at the beginning of every clause (particularly if the speech is trying to be persuasive).
+   - "As you know, we've got the iPod, best music player in the world. We've got the iPod Nanos, brand new models, colours are backk. We've got the amazing new iPod Shuffle."
+2. Epiphora
+   The repetition of a word or phrase at the end of every clause.
+   - "Well, these are their home screens. And again, as you recall, this is the iPhone home screen. This is what their contacts look like, this is what iPhone's contacts look like."
+3. Symploke
+   The combination of one or several anaphora(s) with one or several epiphora(s).
+   - "The madman is not the man who has lost his reason. The madman is the man who has lost everything except his reason."
+4. Germinatio
+   The repetition of a word or word group within a single sentence.
+   - "That's 58 songs of every second or every minute of every hour of every day."
+   - "And so I've got voice mail how I wanna listen to it, when I wanna listen to it, in any order I wanna listen to it with visual voice mail."
+5. Asyndenton
+   A sequence of words or similar expressions without the use of conjunctions.
+   - "We've got movies, TV shows, music, podcasts, photos..."
+6. Exclamatio
+   An exclamation that expresses the emotional affection of the speaker.
+   - "I just take my unit here, and I turn it on to landscape, oh, look what happens!"
+7. Aporia
+   A feigned statement of doubt by the speaker and a question to the audience about how they should act.
+   - "Now, how are we gonna communicate this? We don't want to carry around a music library, do we? What can we do if we want to access all songs at once? Of course, the iPod is the solution."
+8. Hyperbole
+   An exaggeration of an object or circumstance.
+   - "Best version of Google on the planet."
+9. Similie
+   An explicit comparison between two things, usually using "as" or "like" to compare.
+   - "It works like magic."
+10. Antitheton
+    The opposition of two facts of contrasting content.
+    - "The kind of things you would find on a typical phone, but in a very untypical way now."
+11. Slogan
+    A relevant phrase repeated over and over again in a speech.
+    - "Today Apple is going to reinvent the phone...So we're going to reinvent the phone...you'll agree, we HAVE reinvented the phone..."
+* Narrative writing
+** Structure
+1. Setting
+   - location, surroundings, atmosphere, time/date
+2. Characters
+   - introduce up to 3 characters by describing their appearance, behaviour and quirks
+3. Problem
+   - create a situation requiring decision or discussion
+   - build up conflict, perhaps via dialogue
+4. Climax
+   - narrate a series of actions/events leading to a crisis
+5. Resolution
+   - describe the outcome to the problem of the plot, which could include something like an ironic twist
+** Flashbacks
+- A sensory experience (trigger) that takes a character into the past
+- While in a flashback, change the tense in which you are writing (e.g. from present tense to past tense)
+- Describe the event/memory
+- A sensory experience in or out of the flashback may bring the character out of said flashback and into the present
+* Interview writing
+- Interviews have a structured formality. The structure plays a limit on the discussion. It is guided by someone who does not have a close/personal relationship with the interviewee.
+- The interviewee filters answers based on the assumptions about what the person asking questions expects to hear.
+- Most of the time, the interviewee worries about being judged.
+- An interview is a 'controlled' conversation that follows a linear path.
+- Three questions are usually given for the interview in a paper. You are not expected to devise any other question(s).
+- Remember the voice, audience, register (choice of vocabulary) and purpose while writing an interview.
+- Always write the name of the speaker on the left-hand side.
+- Remember to use ideas from the text and develop them, ensuring that your ideas and additions are authentic.
+- Ensure that any included content comes from the text.
+- Use your own words.
+- Vary your sentence structures, do not join sentences with commas; use connectives or semicolons instead.
+* Speech writing
+** Structure
+*** Introduction
+You should start off by stating your point of view. Get straight to the point, possibly with a rhetorical question. Try to incorporate as many  persuasive features as possible (e.g. rhetorical questions, references to involve the audience, repetition, and a confident tone of voice). For e.g.,
+- "Can you imagine a world where creativity is viewed as a shameful activity? Can you imagine a world where self-expression is not as important as copying notes from a board? Can you imagine a world accompanied only by the monotonous sounds of everyday life instead of one energised by the latest beats and lyrics? This is the world our school wants to create by banning iPods and this is the world that we must fight against with all our might."
+*** Main body
+Each paragraph (or pair of paragraphs) should concentrate on one main argument for/against the topic. It is best to start a paragraph with a point. You should introduce it with a phrase, such as "some people may believe...because...". In cases where you are using a pair of paragraphs, paragraph one should be a point against your stance and paragraph two in favour of your stance so that you always end on a point in your favour. For this, you might need to start with a transitive verb, such as 'however', 'moreover', 'contrary', etc. It is important that you support each point for or against your stance with some evidence/reasoning, so that there is validity to your argument and it is not just an assertion.
+*** Conclusion
+You can summarize the points you have made or the overall idea. It is recommended, however, that you end strongly, possibly with:
+1. a catchphrase
+2. a triad
+3. a short sentence
+4. a powerful image
+5. a rhetorical question
+** Logos/ethos/pathos
+*** Logos
+Logos refers to the usage of logic. It is a statement, sentence or argument used to convince or persuade the targeted audience by employing reason or logic. Arguments using logos depend on pathos and ethos.
+*** Ethos
+Ethos is a statement, sentence or argument that appeals to the emotions of the audience.
+*** Pathos
+Pathos is a statement, sentence or argument that defines one's credibility.
+** Other notes
+1. You should have points agreeing and disagreeing with your argument.
+2. Ending with the most effective point that agrees with your stance helps strengthen your speech.
+3. Making a plan (with points for/against) will help you write a balanced speech.
+4. Remember who your audience is.
+5. You must have evidence that supports your stance in order to make it realistic enough to convince your audience.
