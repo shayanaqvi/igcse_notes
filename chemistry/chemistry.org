@@ -306,13 +306,13 @@ Fermentation is a process in which micro-organisms (i.e. yeast) act on carbohydr
 *** Carboxylic acid homologous series (Alkoic)
 The carboxylic homologous series consists of elements of the alkyl homologous series bonded with $COOH$. They are weak acids, and partially ionize during reactions.
 *General formula*: $C_nH_{2n}COOH$
-| Name           | Molecular formula | Structural formula                                                                    |
-|----------------+-------------------+---------------------------------------------------------------------------------------|
-| Methanoic Acid | $HCOOH$           | [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig9.png]]  |
-| Ethanoic Acid  | $CH_3COOH$        | [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig10.png]] |
-| Propanoic Acid | $C_2H_5COOH$      | [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig11.png]] |
-| Butanoic Acid  | $C_3H_7COOH$      | [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig12.png]] |
-| ...            | ...               | ...                                                                                   |
+| Name           | Molecular formula | Structural formula                                                         |
+|----------------+-------------------+----------------------------------------------------------------------------|
+| Methanoic Acid | $HCOOH$           | [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig9.png]]  |
+| Ethanoic Acid  | $CH_3COOH$        | [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig10.png]] |
+| Propanoic Acid | $C_2H_5COOH$      | [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig11.png]] |
+| Butanoic Acid  | $C_3H_7COOH$      | [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig12.png]] |
+| ...            | ...               | ...                                                                        |
 **** Chemical reactions
 1. With water
    - Carboxylic acids dissolve in water & partially ionize to produce 1 hydrogen ion ($H^+$). For e.g.,
@@ -334,13 +334,13 @@ The carboxylic homologous series consists of elements of the alkyl homologous se
      - \(Mg + HCOOH\) --> \(MgHCOO + H_2\)
 *** Structured formulas
 Structured formulas represent the structure of a compound.
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig1.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig2.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig3.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig4.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig5.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig6.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig7.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig1.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig2.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig3.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig4.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig5.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig6.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig7.png]]
 *** Esters
 Esters are formed when a mixture of alcohol and carboxylic acid is heated. The products formed are an alkyl alkanoate along with water.
 **** Naming
@@ -355,11 +355,11 @@ For e.g.,
 | 3. | Ethanol  | Methanoic Acid  | Ethyl Methanoate and Water  | \(C_2H_5OH + HCOOH --> C_2H_5COO + H_2O\)        |
 **** Structure
 1. Methyl Ethanoate (Ethanoic Acid + Methanol)
-[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig13.png]]
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig13.png]]
 2. Ethyl Methanoate (Methanoic Acid + Ethanol)
-[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig14.png]]
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig14.png]]
 1. Ethyl Ethanoate (Ethanoic Acid + Ethanol)
-[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig15.png]]
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig15.png]]
 ***** Ester linkage
 An ester linkage is \(O=C-O-H\). The carbon bonds in an ester linkage are incomplete (3 of 4).
 **** Uses of esters
@@ -368,7 +368,7 @@ An ester linkage is \(O=C-O-H\). The carbon bonds in an ester linkage are incomp
 3. Production of soaps (when fats are boiled with sodium hydroxide)
 ** Isomers
 Compounds which have the same molecular formula but different structural formulas are known as isomers.
-[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig8.png]]
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig8.png]]
 ** Fractional distillation of petroleum
 Petroleum is a naturally-occuring liquid mixture of hydrocarbons, that is dark-brown in colour, has a high viscosity and is foul-smelling. In its unrefined form, petroleum is known as crude oil. In order for it to be used, it has to be refined first. This refining is done via fractional distillation.
 *** Process
@@ -416,10 +416,10 @@ b) Condensation polymerization
 | No secondary substance is formed | Water is formed             |
 *** Addition polymerization
 **** Structures
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig16.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig17.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig18.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig19.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig16.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig17.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig18.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig19.png]]
 **** Uses
 ***** Polythene
 - Plastic products, e.g.,
@@ -443,23 +443,23 @@ There are two linkages with condensed polymers:
 - Amide linkages (\(O=C-N-H\) (carbon bonds are 3 of 4))
 **** Ester linkage
 Formed from Di-carboxylic acid + Di-alcohol (diol) and yields a polyester and water.
-[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig20.png]]
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig20.png]]
 **** Amide linkage
 Formed from Di-carboxylic acid + Di-amide and yields a polyamide and water.
-[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig21.png]]
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig21.png]]
 *** Natural polymers
 **** Protein
 - Made of amino acids (being the monomers of protein)
 - Can be separated via chromatography (with ninhydrin as locating agent)
 ***** Structure of amino acids
-[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig23.png]]
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig23.png]]
 - An amino acid is made up of a carbon atom bonded with:
   1. The amine functional group, (\(NH_2\))
   2. Hydrogen
   3. An alkyl
   4. The carboxylic acid functional group, (\(COOH\))
 ***** Formation of proteins via condensation polymerization
-[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/organic chemistry/fig22.png]]
+[[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig22.png]]
 - The linkage is *not* the amide linkage. Though it is the same, in a protein, this linkage is called a *peptide link*.
 - Because this is condensation polymerization, water is formed.
 * Moles
