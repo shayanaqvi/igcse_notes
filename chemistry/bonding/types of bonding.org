@@ -1,7 +1,0 @@
-#+title: Types of bonding
-* Ionic Bonding
-Bonding via the transfer of electrons.
-* Covalent Bonding
-Bonding via the sharing of electrons.
-* Metallic Bonding
-Bonding between metallic ions and free electrons.

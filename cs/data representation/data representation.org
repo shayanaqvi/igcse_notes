@@ -192,4 +192,3 @@ A bitmap image is made up of pixels. Each pixel can be represented as a binary n
 The number of bits used to represent each pixel is called colour depth. 8 bits of colour depth mean that each pixel can be one of 256 colours ($2^8$). Most modern computers handle 24 bit colour depth, meaning over 16 million colours can be represented.
 *** Image resolution
 Image resolution refers to the number of pixels that make up a photograph. More pixels = a higher image resolution. A greater image resolution, however, comes with a larger file size (and all subsequent large file-size drawbacks).
-* Data storage + file compression

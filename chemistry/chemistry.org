@@ -237,7 +237,7 @@ b) Bromination
    - The passing of bromine water (liquid bromine)(reddish-brown) through hydrocarbons for the purpose of identification. For e.g., Bromine water + Ethene:
      - $C_2H_4 + Br_2$ --> $C_2H_4Br$ (Dibromo Ethane)
        - The colour transitions from reddish-brown --> colourless.
-   - When a hydrocarbon becomes colourless after reacting with bromine water, it means it is unsaturated.
+   - When the bromine water  becomes colourless after reacting with bromine water, it means it is unsaturated.
 c) Hydration
    - Alkenes can react with steam to produce an alcohol. For e.g., Ethene + Water: $C_2H_4 + H_2O (g)$ --> $C_2H_4OH$ (Ethanol)
    - Prerequisites for hydration
@@ -305,6 +305,7 @@ Fermentation is a process in which micro-organisms (i.e. yeast) act on carbohydr
 4. In foods/drinks
 *** Carboxylic acid homologous series (Alkoic)
 The carboxylic homologous series consists of elements of the alkyl homologous series bonded with $COOH$. They are weak acids, and partially ionize during reactions.
+Keep in mind, when writing a molecular formula for a carboxylic acid, that one atom of carbon and one of hydrogen have already been included in the \(COOH\)  functional group.
 *General formula*: $C_nH_{2n}COOH$
 | Name           | Molecular formula | Structural formula                                                         |
 |----------------+-------------------+----------------------------------------------------------------------------|
@@ -314,33 +315,24 @@ The carboxylic homologous series consists of elements of the alkyl homologous se
 | Butanoic Acid  | $C_3H_7COOH$      | [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig12.png]] |
 | ...            | ...               | ...                                                                        |
 **** Chemical reactions
-1. With water
+***** With water
    - Carboxylic acids dissolve in water & partially ionize to produce 1 hydrogen ion ($H^+$). For e.g.,
      - $HCOOH$ $\frac{H_2O}{-->}$ $H^+ + HCOO^-$ (methanoate)
      - $CH_3COOH$ $\frac{H_2O}{-->}$ $H^+ CH_3COO$ (ethanoate)
      - $C_2H_5COOH$ $\frac{H_2O}{-->}$ $H^+ C_2H_5COO$ (propanoate)
-2. With bases
+***** With bases
    - Acid + base --> Salt + water
      - $CH_3COOH + Ca(OH)_2$ --> $Ca(CH_3COO)_2\ (calcium\ ethanoate)\ + H_2O$
      - $C_2H_5COOH + NaOH$ --> $NaC_2H_5COO\ (sodium\ propanoate)\ + H_2O$
-3. With carbonates
+***** With carbonates
    - Acid + carbonate --> Salt + water + carbon dioxide
      - $HCOOH + CaCO_3$ --> $Ca(HCOO)_2 + H_2O + CO_2$
      - $CH_3COOH + K_2CO_3$ --> $KCH_3COO + H_2O + CO_2$
      - $C_2H_5COOH + Na_2CO_3$ --> $Na_2C_2H_5 + H_2O + CO_2$
-4. With metals
+***** With metals
    - Acid + metal --> Salt + hydrogen gas
      - $Zn + CH_3COOH$ --> $Zn(CH_3COO)_2 + H_2$
      - \(Mg + HCOOH\) --> \(MgHCOO + H_2\)
-*** Structured formulas
-Structured formulas represent the structure of a compound.
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig1.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig2.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig3.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig4.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig5.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig6.png]]
-- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig7.png]]
 *** Esters
 Esters are formed when a mixture of alcohol and carboxylic acid is heated. The products formed are an alkyl alkanoate along with water.
 **** Naming
@@ -366,6 +358,15 @@ An ester linkage is \(O=C-O-H\). The carbon bonds in an ester linkage are incomp
 1. Artificial flavouring (courtesy of its fragrance)
 2. Solvents (in cosmetics, perfumes, glue, etc)
 3. Production of soaps (when fats are boiled with sodium hydroxide)
+** Structured formulas
+Structured formulas represent the structure of a compound.
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig1.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig2.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig3.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig4.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig5.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig6.png]]
+- [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig7.png]]
 ** Isomers
 Compounds which have the same molecular formula but different structural formulas are known as isomers.
 [[file:/home/shayan/Documents/org/notes/school/O3/chemistry/images/fig8.png]]

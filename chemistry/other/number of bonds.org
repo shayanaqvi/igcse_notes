@@ -1,7 +1,0 @@
-#+title: Number Of Bonds
-* Number of bonds for:
-1. C = 4
-2. N = 3
-3. O = 2
-4. H = 1
-5. Halogens = 1
