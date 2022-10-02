@@ -1,4 +1,4 @@
-#+title: Chemistry
+#+title: IGCSE Chemistry
 #+author: Shayan Naqvi
 * Bonding
 ** Ionic Bonding
