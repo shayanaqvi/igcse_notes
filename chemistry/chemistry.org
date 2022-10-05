@@ -1,30 +1,71 @@
 #+title: IGCSE Chemistry
 #+author: Shayan Naqvi
-* Bonding
-** Ionic Bonding
-Bonding via the transfer of electrons.
-** Covalent Bonding
+* Atomic structure
+** Atoms
+Atoms are made up of protons (+), electrons (-) and neutrons (+&-). Note that in an atom, the number of protons is equal to the number of electrons.
+*** Proton number/Atomic number
+This number refers to the number of protons in an atom, and by extension, the number of electrons.
+*** Nucleon number/Mass number
+This number refers to the sum of protons and neutrons in an atom. By subtracting the proton number from the nucleon number of an atom, we can find the number of neutrons.
+** Isotopes
+An isotope is an atom with the same number of protons and electrons but a different number of neutrons. Since chemical reactions involve only electrons, isotopes have the same chemical properties but different physical properties (since the different number of neutrons may affect its mass) as their original counterparts. For example, chlorine-35 and chlorine-37 are isotopes.
+**** Radioisotopes
+Isotopes that emit high-energy radiation are known as radioisotopes. The radiation can cause damage to living cells and cause cancer, but if used correctly and safely, they prove to be very useful.
+*** Uses
+| Field of application | Isotope         | Use of isotope                 |
+|----------------------+-----------------+--------------------------------|
+| Medical              | technetium-99   | detection of tumours           |
+|                      | iodine-131      | treatment of thyroid disorder  |
+| security             | californium-252 | detection of explosives        |
+|                      | americium-241   | smoke detectors                |
+| archaeology          | carbon-14       | carbon dating                  |
+| geology              | uranium-288     | estimation of the age of rocks |
+** Arrangement of electrons
+The arrangement of electrons in an atom is what determines an element's chemical properties.
+*** Shells
+***** Shell 1
+The first shell is closest to the nucleus and holds a maximum of 2 electrons.
+***** Shell 2/3
+These shells usually hold up to 8 electrons.
+**** Valence shell
+The outermost shell is known as the 'valence shell', since it represents the number of valence electrons.
+**** Identifying the group + period of an element via shells
+The group and period of an element can be identified via its shell structure.
+- The number of electrons in the valence shell represent its group (i.e. 2 valence electrons = group 2).
+- The number of shells represents the period (i.e. 3 shells = period 3).
+*** Electronic configuration
+The arrangement of electrons in an atom can be represented using electronic configuration. It shows the number of electrons in each corresponding shell. Magnesium, for example, would be \(2, 8, 2\), while calcium would be \(2, 8, 8, 2\)
+**** Duplet configuration
+An element with two outer-shell electrons have what is known as a duplet configuration.
+**** Octet configuration
+An element with eight outer-shell electrons have what is known as an octet configuration.
+**** Stability
+An atom can achieve stability when it has a duplet or octet electronic configuration
+** Bonding
+*** Ionic Bonding
+In order to achieve stability, atoms need to have a full valence shell. Elements such as hydrogen and the noble gases have a full valence shell and are therefore stable and unreactive. Other elements, such as sodium, transition metals and halides have incomplete valence shells, meaning they are more reactive. When two reactive elements, such as sodium (which has one valence electron) and chlorine (which has seven valence electrons), react, the valence electron in sodium is transferred to the valence shell of chlorine, therefore making both of them stable. Since both of them are now ions (since they have gained and lost electrons), and since both ions are of opposite charges, both ions are attracted to each other, forming a bond.
+**** Naming
+| Rule                                                                                           | Examples                                                                                          |
+|------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------|
+| A compound that has two elements ends in 'ide'                                                 | Sodium chloride (sodium + chlorine), zinc oxide (zinc + oxygen), carbon dioxide (carbon + oxygen) |
+| A compound that contains \(OH\) ends with 'hydroxide'                                          | Potassium hydroxide (potassium + hydroxide (\(KOH\)))                                             |
+| A compound that contains a negatively charged polyatomic ion containing oxygen ends with 'ate' | Copper(II) sulfate (copper + sulfur + oxygen), sodium nitrate (sodium + nitrogen + oxygen)        |
+*** Covalent Bonding
 Bonding via the sharing of electrons.
-** Metallic Bonding
+*** Metallic Bonding
 Bonding between metallic ions and free electrons.
-** Number of bonds
-1. C = 4
-2. N = 3
-3. O = 2
-4. H = 1
-5. Halogens = 1
 * Identification
 ** Identification of cations
-|                         | Sodium Hydroxide, \(NaOH (aq)\)                                                                         |                                                                 | Aqueous Ammonia, \(NH_3 (aq)\) |                                                                 |
-| Cation                  | On addition of a few drops                                                                              | On addition of excess                                           | On addition of a few drops     | On addition of excess                                           |
-|-------------------------+---------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+--------------------------------+-----------------------------------------------------------------|
-| Zinc, \(Zn^{2+}\)       | White precipitate                                                                                       | Colourless solution (precipitate dissolves in excess)           | White precipitate              | Colourless solution (precipitate dissolves in excess)           |
-| Aluminium, \(Al^{3+}\)  | White precipitate                                                                                       | Colourless solution (precipitate dissolves in excess)           | White precipitate              | Precipitate does not dissolve in excess (insoluble precipitate) |
-| Lead(II), \(Pb^{2+}\)   | White precipitate                                                                                       | Colourless solution (precipitate dissolves in excess)           | White precipitate              | Precipitate does not dissolve in excess (insoluble precipitate) |
-| Calcium, \(Ca^{2+}\)    | White precipitate                                                                                       | Precipitate does not dissolve in excess (insoluble precipitate) | No precipitate                 | No precipitate                                                  |
-| Copper(II), \(Cu^{2+}\) | Light blue precipitate                                                                                  | Precipitate does not dissolve in excess (insoluble precipitate) | Light blue precipitate         | Deep blue solution (soluble precipitate)                        |
-| Iron(II), \(Fe^{2+}\)   | Green precipitate                                                                                       | Precipitate does not dissolve in excess (insoluble precipitate) | Green precipitate              | Precipitate does not dissolve in excess (insoluble precipitate) |
-| Iron(III), \(Fe^{3+}\)  | Reddish-brown precipitate                                                                               | Precipitate does not dissolve in excess (insoluble precipitate) | Reddish-brown precipitate      | Precipitate does not dissolve in excess (insoluble precipitate) |
+|                         | Sodium Hydroxide, \(NaOH (aq)\)                                                                       |                                                                 | Aqueous Ammonia, \(NH_3 (aq)\) |                                                                 |
+| Cation                  | On addition of a few drops                                                                            | On addition of excess                                           | On addition of a few drops     | On addition of excess                                           |
+|-------------------------+-------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+--------------------------------+-----------------------------------------------------------------|
+| Zinc, \(Zn^{2+}\)       | White precipitate                                                                                     | Colourless solution (precipitate dissolves in excess)           | White precipitate              | Colourless solution (precipitate dissolves in excess)           |
+| Aluminium, \(Al^{3+}\)  | White precipitate                                                                                     | Colourless solution (precipitate dissolves in excess)           | White precipitate              | Precipitate does not dissolve in excess (insoluble precipitate) |
+| Lead(II), \(Pb^{2+}\)   | White precipitate                                                                                     | Colourless solution (precipitate dissolves in excess)           | White precipitate              | Precipitate does not dissolve in excess (insoluble precipitate) |
+| Calcium, \(Ca^{2+}\)    | White precipitate                                                                                     | Precipitate does not dissolve in excess (insoluble precipitate) | No precipitate                 | No precipitate                                                  |
+| Copper(II), \(Cu^{2+}\) | Light blue precipitate                                                                                | Precipitate does not dissolve in excess (insoluble precipitate) | Light blue precipitate         | Deep blue solution (soluble precipitate)                        |
+| Iron(II), \(Fe^{2+}\)   | Green precipitate                                                                                     | Precipitate does not dissolve in excess (insoluble precipitate) | Green precipitate              | Precipitate does not dissolve in excess (insoluble precipitate) |
+| Iron(III), \(Fe^{3+}\)  | Reddish-brown precipitate                                                                             | Precipitate does not dissolve in excess (insoluble precipitate) | Reddish-brown precipitate      | Precipitate does not dissolve in excess (insoluble precipitate) |
 | Ammonium, \(NH_4^+\)    | No precipitate. However, if heated, ammonia gas is released, which turns *moist red litmus paper blue*. | No change is observed                                           | -                              | -                                                               |
 ** Identification of anions
 | Anion                    | Test                                                                                                                                                                   | Observation(s)                                                |
@@ -121,10 +162,10 @@ Here, chlorine has gained hydrogen and has therefore been reduced to hydrochlori
 | Dip a piece of starch-iodide paper in the unknown solution | The starch-iodide paper turns from white to blue | Iodide ions are oxidised to iodine through the oxidising agent, which subsequently reacts with the starch in the paper to form a blue colour |
 **** Identification of reducing agents
 Acidified \(KMnO_4\)(Mn(VII)) can be used to test the presence of a reducing agent.
-| Test                                                                                                                 | Observation                                                             | Explanation                                                                                                                                                                                      |
-|----------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If a gas is to be tested, place a piece of filter paper soaked in acidified \(KMnO_4\) at the mouth of the test tube | The filter paper turns from purple to colourless                        | The manganate(VII) ion (\(MnO_4\)) is reduced to maganese (\(Mn^{2+}\)). The oxidation state decreases from 7 to 2 (\(MnO_4^-(aq)(purple)+8H^+(aq)+5e^--->Mn^{2+}(aq)(colourless) + 4H_2O(l)\))  |
-| If a solution is to be tested, add acidified \(KMnO_4\) to the unknown solution                                      | The colour of the \(KMnO_4\) solution changes from purple to colourless | The manganate(VII) ion (\(MnO_4\)) is reduced to maganese (\(Mn^{2+}\)). The oxidation state decreases from 7 to 2 (\(MnO_4^-(aq)(purple)+8H^+(aq)+5e^--->Mn^{2+}(aq)(colourless) + 4H_2O(l)\))  |
+| Test                                                                                                                 | Observation                                                             | Explanation                                                                                                                                                                                     |
+|----------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| If a gas is to be tested, place a piece of filter paper soaked in acidified \(KMnO_4\) at the mouth of the test tube | The filter paper turns from purple to colourless                        | The manganate(VII) ion (\(MnO_4\)) is reduced to maganese (\(Mn^{2+}\)). The oxidation state decreases from 7 to 2 (\(MnO_4^-(aq)(purple)+8H^+(aq)+5e^--->Mn^{2+}(aq)(colourless) + 4H_2O(l)\)) |
+| If a solution is to be tested, add acidified \(KMnO_4\) to the unknown solution                                      | The colour of the \(KMnO_4\) solution changes from purple to colourless | The manganate(VII) ion (\(MnO_4\)) is reduced to maganese (\(Mn^{2+}\)). The oxidation state decreases from 7 to 2 (\(MnO_4^-(aq)(purple)+8H^+(aq)+5e^--->Mn^{2+}(aq)(colourless) + 4H_2O(l)\)) |
 * Organic chemistry
 ** Compounds
 *** Organic compounds
